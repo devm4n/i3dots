@@ -1,0 +1,6 @@
+
+@theme "/usr/share/rofi/themes/custom-theme.rasi"
+
+    configuration {
+      show-icons: true;
+    }

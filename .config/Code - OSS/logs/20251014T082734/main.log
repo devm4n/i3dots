@@ -1,0 +1,5 @@
+2025-10-14 08:27:36.507 [info] update#setState disabled
+2025-10-14 08:27:36.507 [info] update#ctor - updates are disabled as there is no update URL
+2025-10-14 08:45:17.211 [info] Extension host with pid 1798 exited with code: 0, signal: unknown.
+2025-10-14 08:45:19.223 [warning] [storage main] detected slow close() operation: Time: 2213ms, DB size: 147456b, Large Keys: iconThemeData:96314, colorThemeData:14256, workbench.activity.placeholderViewlets:3620, __$__targetStorageMarker:1541, memento/customEditors:1298
+2025-10-14 08:45:19.659 [warning] [storage main] detected slow close() operation: Time: 2652ms, DB size: 24576b, Large Keys: __$__targetStorageMarker:1269, memento/workbench.editors.files.textFileEditor:875, memento/workbench.parts.editor:795, workbench.view.debug.state:584, workbench.activity.viewletsWorkspaceState:401

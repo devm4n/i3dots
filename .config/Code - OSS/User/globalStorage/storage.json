@@ -1,0 +1,64 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "ec60a7be2019184a610ecc94ffe37c17ec39f5f3a7f64d8d073f1c5e9c5b6096",
+    "telemetry.devDeviceId": "11744a77-c184-472e-8554-4de97d2edff2",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [],
+        "emptyWindows": [
+            {
+                "backupFolder": "1760538977487"
+            }
+        ]
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {},
+        "emptyWindows": {
+            "1760538977487": "__default__profile__"
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "backupPath": "/home/devm4n/.config/Code - OSS/Backups/1760538977487",
+            "uiState": {
+                "mode": 1,
+                "x": 687,
+                "y": 38,
+                "width": 665,
+                "height": 716
+            }
+        },
+        "openedWindows": []
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#0c0e1b",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "rgba(222, 226, 225, 0.6)",
+            "background": "#0c0e1b",
+            "editorBackground": "#0c0e1b",
+            "titleBarBackground": "#0c0e1b",
+            "titleBarBorder": "#0c0e1b",
+            "activityBarBackground": "#0c0e1b",
+            "activityBarBorder": "#0c0e1b",
+            "sideBarBackground": "#0c0e1b",
+            "sideBarBorder": "#0c0e1b",
+            "statusBarBackground": "#0c0e1b",
+            "statusBarBorder": "#0c0e1b",
+            "statusBarNoFolderBackground": "#0e1120"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 0,
+            "sideBarWidth": 0,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    }
+}

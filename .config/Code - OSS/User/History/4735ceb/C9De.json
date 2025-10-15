@@ -1,0 +1,8 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.fontFamily": "Fira Code",
+    "workbench.settings.applyToAllProfiles": [
+        "editor.fontFamily"
+    ],
+    "workbench.colorTheme": "Wal"
+}

@@ -1,0 +1,3 @@
+2025-10-15 14:36:22.393 [info] Started local extension host with pid 918.
+2025-10-15 14:36:29.100 [info] [perf] Render performance baseline is 462ms
+2025-10-15 14:42:02.657 [info] Unable to reload {0}: {1} file:///home/devm4n/.vscode-oss/extensions/dlasagno.wal-theme-1.1.2-universal/themes/wal.json

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/devm4n/Downloads/wal1.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0f1017",
+        "foreground": "#d9cfcf",
+        "cursor": "#d9cfcf"
+    },
+    "colors": {
+        "color0": "#0f1017",
+        "color1": "#9D616A",
+        "color2": "#A0956D",
+        "color3": "#777B88",
+        "color4": "#9A999E",
+        "color5": "#B8ADB0",
+        "color6": "#CAAE97",
+        "color7": "#d9cfcf",
+        "color8": "#979090",
+        "color9": "#9D616A",
+        "color10": "#A0956D",
+        "color11": "#777B88",
+        "color12": "#9A999E",
+        "color13": "#B8ADB0",
+        "color14": "#CAAE97",
+        "color15": "#d9cfcf"
+    }
+}

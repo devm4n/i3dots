@@ -1,0 +1,69 @@
+2025-10-14 23:46:57.304 [info] Started local extension host with pid 1721.
+2025-10-14 23:47:04.160 [info] [perf] Render performance baseline is 696ms
+2025-10-14 23:47:05.012 [error] Error while getting the latest version for the extension dlasagno.wal-theme. SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open VSX Registry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+
+    <!-- Eclipse Cookie Consent -->
+    <link rel="stylesheet" type="text/css"
+        href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+    <script
+        src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js">
+    </script>
+    <style>
+        a.cc-btn.cc-allow {
+            background-color: #c160ef;
+        }
+        a.cc-btn.cc-allow:hover, a.cc-btn.cc-allow:focus {
+            background-color: #444;
+        }
+        .cc-revoke {
+            display: none !important;
+        }
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="main"></div>
+    <script src='/bundle.js' ></script>
+</body>
+
+</html>
+
+2025-10-14 23:50:06.706 [warning] Settings pattern "mcp" doesn't match any settings
+2025-10-14 23:50:06.734 [warning] SettingsEditor2: Settings not included in settingsLayout.ts: github.copilot.chat.agent.terminal.allowList, github.copilot.chat.agent.terminal.denyList
+2025-10-14 23:50:19.757 [warning] Settings pattern "mcp" doesn't match any settings
+2025-10-14 23:50:37.709 [warning] Settings pattern "mcp" doesn't match any settings
+2025-10-14 23:51:00.817 [warning] Settings pattern "mcp" doesn't match any settings
+2025-10-14 23:51:36.579 [warning] Settings pattern "mcp" doesn't match any settings
+2025-10-14 23:52:15.164 [warning] Settings pattern "mcp" doesn't match any settings
+2025-10-14 23:52:31.604 [warning] Settings pattern "mcp" doesn't match any settings
+2025-10-14 23:53:13.011 [warning] Settings pattern "mcp" doesn't match any settings
+2025-10-14 23:53:32.371 [warning] Settings pattern "mcp" doesn't match any settings
+2025-10-14 23:53:52.553 [warning] Settings pattern "mcp" doesn't match any settings
+2025-10-14 23:54:15.009 [warning] Settings pattern "mcp" doesn't match any settings
+2025-10-14 23:54:43.571 [warning] Settings pattern "mcp" doesn't match any settings
+2025-10-15 00:30:42.386 [info] Unable to reload {0}: {1} file:///home/devm4n/.vscode-oss/extensions/dlasagno.wal-theme-1.1.2-universal/themes/wal.json
+2025-10-15 00:33:48.323 [warning] [lifecycle] onWillShutdown is taking a long time, pending operations: join.workingCopyHistory
+2025-10-15 00:33:48.438 [warning] Settings pattern "mcp" doesn't match any settings

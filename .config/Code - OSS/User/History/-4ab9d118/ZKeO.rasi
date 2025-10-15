@@ -1,0 +1,7 @@
+
+@theme "/usr/share/rofi/themes/custom-theme.rasi"
+
+configuration {
+    font: Inter 12;
+      show-icons: true;
+}

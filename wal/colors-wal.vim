@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/devm4n/Downloads/wal2.jpg"
+let background = "#0C0E1B"
+let foreground = "#dee2e1"
+let cursor     = "#dee2e1"
+
+" Colors
+let color0  = "#0C0E1B"
+let color1  = "#B8B659"
+let color2  = "#71A19A"
+let color3  = "#15C8E1"
+let color4  = "#2DE3E9"
+let color5  = "#40DADC"
+let color6  = "#A1B0AB"
+let color7  = "#dee2e1"
+let color8  = "#9b9e9d"
+let color9  = "#B8B659"
+let color10 = "#71A19A"
+let color11 = "#15C8E1"
+let color12 = "#2DE3E9"
+let color13 = "#40DADC"
+let color14 = "#A1B0AB"
+let color15 = "#dee2e1"

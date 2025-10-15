@@ -1,0 +1,14 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.fontFamily": "JetBrainsMono Nerd Font Mono",
+    "workbench.settings.applyToAllProfiles": [
+        "editor.fontFamily"
+    ],
+    "workbench.colorTheme": "Wal",
+    "editor.fontSize": 12,
+    "editor.codeLensFontFamily": "Fira Code",
+    "terminal.integrated.fontFamily": "Fira Code",
+    "editor.mouseWheelZoom": true,
+    "workbench.editor.editorActionsLocation": "hidden",
+    "window.customTitleBarVisibility": "never"
+}

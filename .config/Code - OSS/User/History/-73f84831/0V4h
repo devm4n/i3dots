@@ -1,0 +1,7 @@
+general {
+    colors=true
+    color_good="#B8B659"
+    # ...
+    interval = 1
+    # ...
+}

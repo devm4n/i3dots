@@ -1,0 +1,21 @@
+set $wallpaper /home/devm4n/Downloads/wal2.jpg
+
+set $background #0C0E1B
+set $foreground #dee2e1
+
+set $color0 #0C0E1B
+set $color1 #B8B659
+set $color2 #71A19A
+set $color3 #15C8E1
+set $color4 #2DE3E9
+set $color5 #40DADC
+set $color6 #A1B0AB
+set $color7 #dee2e1
+set $color8 #9b9e9d
+set $color9 #B8B659
+set $color10 #71A19A
+set $color11 #15C8E1
+set $color12 #2DE3E9
+set $color13 #40DADC
+set $color14 #A1B0AB
+set $color15 #dee2e1

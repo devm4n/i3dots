@@ -1,0 +1,132 @@
+* {
+    background: #0C0E1B;
+    background-alt: rgba(161, 176, 171, 0.1);
+    foreground: #dee2e1;
+    foreground-dim: #9b9e9d;
+    
+    color0: #B8B659;  /* yellow */
+    color1: #71A19A;  /* teal */
+    color2: #15C8E1;  /* cyan */
+    color3: #2DE3E9;  /* bright cyan */
+    color4: #40DADC;  /* light cyan */
+    color5: #A1B0AB;  /* muted gray-green */
+}
+
+window {
+    background-color: @background;
+    border: 2px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+mainbox {
+    border: 0;
+    padding: 0;
+    spacing: 12px;
+}
+
+inputbar {
+    spacing: 8px;
+    padding: 12px;
+    background-color: @background-alt;
+    border-radius: 6px;
+    border: 1px solid @color1;
+    children: [prompt, entry];
+}
+
+prompt {
+    text-color: @color3;
+}
+
+entry {
+    text-color: @foreground;
+    placeholder: "Search...";
+    placeholder-color: @foreground-dim;
+}
+
+listview {
+    border: 0;
+    padding: 8px 0;
+    spacing: 4px;
+    scrollbar: false;
+    lines: 8;
+}
+
+element {
+    padding: 10px 12px;
+    border-radius: 4px;
+    background-color: transparent;
+    text-color: @foreground;
+}
+
+element alternate {
+    background-color: @background-alt;
+}
+
+element selected.normal {
+    background-color: @color1;
+    text-color: @foreground;
+}
+
+element selected.active {
+    background-color: @color2;
+    text-color: @background;
+}
+
+element selected.urgent {
+    background-color: @color0;
+    text-color: @background;
+}
+
+element normal.active {
+    text-color: @color3;
+}
+
+element normal.urgent {
+    text-color: @color0;
+}
+
+element-text {
+    background-color: inherit;
+    text-color: inherit;
+}
+
+element-icon {
+    size: 1.2em;
+    margin: 0 8px 0 0;
+    background-color: inherit;
+}
+
+message {
+    padding: 12px;
+    background-color: @background-alt;
+    border-radius: 6px;
+    border: 1px solid @color4;
+}
+
+textbox {
+    text-color: @foreground;
+}
+
+error-message {
+    background-color: @background;
+    border: 2px solid @color0;
+    padding: 12px;
+}
+
+mode-switcher {
+    spacing: 8px;
+    padding: 8px 0;
+}
+
+button {
+    padding: 8px 12px;
+    background-color: transparent;
+    text-color: @foreground-dim;
+    border-radius: 4px;
+}
+
+button selected {
+    background-color: @color1;
+    text-color: @foreground;
+}

@@ -1,0 +1,14 @@
+//@theme "~/.cache/wal/colors-rofi-dark.rasi"
+
+@theme "/usr/share/rofi/themes/custom-theme.rasi"
+
+*{
+    select-bg:#89b4fa;
+    select-fg:#89b4fa;
+
+}
+
+configuration {
+    font:"JetBrainsMono 12";
+    show-icons:true;
+}

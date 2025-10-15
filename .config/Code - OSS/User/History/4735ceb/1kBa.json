@@ -1,0 +1,7 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.fontFamily": "DejeVu",
+    "workbench.settings.applyToAllProfiles": [
+        "editor.fontFamily"
+    ]
+}

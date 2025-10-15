@@ -1,0 +1,11 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.fontFamily": "Jet Brains Mono Regular",
+    "workbench.settings.applyToAllProfiles": [
+        "editor.fontFamily"
+    ],
+    "workbench.colorTheme": "Wal",
+    "editor.fontSize": 12,
+    "editor.codeLensFontFamily": "Fira Code",
+    "terminal.integrated.fontFamily": "Fira Code"
+}
