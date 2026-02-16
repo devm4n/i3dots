@@ -52,7 +52,7 @@ tiling_drag modifier titlebar
 bindsym $mod+Return exec alacritty
 
 # kill focused window
-bindsym $mod+Shift+q kill
+bindsym $mod+q kill
 
 # start dmenu (a program launcher)
 bindsym $mod+d exec --no-startup-id rofi -show drun
@@ -200,15 +200,18 @@ gaps top 30 px
 
 
 # class                 border    background   text       indicator   child_border
-client.urgent          #15C8E1   #0C0E1B      #DEE2E1    #2DE3E9     #40DADC
-client.focused_inactive #71A19A   #0C0E1B      #A1B0AB    #71A19A     #71A19A
-client.unfocused        #0C0E1B   #0C0E1B      #9B9E9D    #A1B0AB     #0C0E1B
-client.focused           #B8B659   #B8B659      #0C0E1B    #B8B659     #B8B659
+client.focused          #15C8E1   #0C0e1B      #0C0E1B    #15C8E1     #15C8E1
+client.unfocused        #0C0E1B   #0C0E1B      #0C0E1B    #0C0E1B     #0C0E1B
+client.focused_inactive #0C0E1B   #0C0E1B      #0C0E1B    #0C0E1B     #0C0E1B
 client.placeholder      #0C0E1B   #0C0E1B      #DEE2E1    #0C0E1B     #0C0E1B
+client.urgent           #B8B659   #B8B659      #B8B659    #B8B659     #B8B659
+client.background       #0C0E1B
 
-client.background       #ffffff
-default_border pixel 2
-default_floating_border pixel 3
+default_border pixel 0
+default_floating_border pixel 2
+
+for_window [class="Firefox"] = floating enable, move position center,resize set 400 300
+for_window [class="feh"] = floating enable
 
 
 

@@ -4,28 +4,36 @@
     "telemetry.devDeviceId": "11744a77-c184-472e-8554-4de97d2edff2",
     "backupWorkspaces": {
         "workspaces": [],
-        "folders": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/devm4n/Manav-Code/Quotify"
+            }
+        ],
         "emptyWindows": [
             {
-                "backupFolder": "1760538977487"
+                "backupFolder": "1767007391036"
             }
         ]
     },
     "windowControlHeight": 35,
     "profileAssociations": {
-        "workspaces": {},
+        "workspaces": {
+            "file:///home/devm4n/Manav-Code": "__default__profile__",
+            "file:///home/devm4n/Manav-Code/fullstack-projects/snipode": "__default__profile__",
+            "file:///home/devm4n/Manav-Code/Quotify": "__default__profile__"
+        },
         "emptyWindows": {
-            "1760538977487": "__default__profile__"
+            "1767007391036": "__default__profile__"
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/devm4n/.config/Code - OSS/Backups/1760538977487",
+            "backupPath": "/home/devm4n/.config/Code - OSS/Backups/1767007391036",
             "uiState": {
-                "mode": 1,
-                "x": 687,
+                "mode": 0,
+                "x": 14,
                 "y": 38,
-                "width": 665,
+                "width": 1338,
                 "height": 716
             }
         },
@@ -54,11 +62,31 @@
             "sideBarSide": "left",
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
-            "activityBarWidth": 0,
-            "sideBarWidth": 0,
+            "activityBarWidth": 48,
+            "sideBarWidth": 170,
             "auxiliaryBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
+        }
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 300,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "c932346a603bc00b635d5f63e00909fb": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "6c6d49e1a058d2c41fbe5016d8d016d9": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "18caf6a96f3a3554f2182eb2de03d599": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
         }
     }
 }

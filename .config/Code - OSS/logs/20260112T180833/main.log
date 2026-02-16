@@ -1,0 +1,4 @@
+2026-01-12 18:08:38.770 [info] update#setState disabled
+2026-01-12 18:08:38.770 [info] update#ctor - updates are disabled as there is no update URL
+2026-01-12 18:12:11.988 [info] Extension host with pid 4214 exited with code: 0, signal: unknown.
+2026-01-12 18:12:12.972 [warning] [storage main] detected slow close() operation: Time: 2335ms, DB size: 28672b, Large Keys: workbench.view.extensions.state:2431, __$__targetStorageMarker:1726, terminal.integrated.environmentVariableCollectionsV2:1093, memento/workbench.parts.editor:694, workbench.view.debug.state:584

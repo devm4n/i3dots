@@ -1,0 +1,22 @@
+2025-10-24 16:46:52.139 [error] #1: https://open-vsx.org/vscode/gallery/vscode/alexcvzz/vscode-sqlite/latest - error GET Fetch timeout: 10000ms
+2025-10-24 16:46:52.144 [error] #2: https://open-vsx.org/vscode/gallery/vscode/alexgoni/short-react-snippets/latest - error GET Fetch timeout: 10000ms
+2025-10-24 16:46:52.149 [error] #3: https://open-vsx.org/vscode/gallery/vscode/batisteo/vscode-django/latest - error GET Fetch timeout: 10000ms
+2025-10-24 16:46:52.151 [error] #4: https://open-vsx.org/vscode/gallery/vscode/bfrangi/vscode-django-tex/latest - error GET Fetch timeout: 10000ms
+2025-10-24 16:46:52.154 [error] #5: https://open-vsx.org/vscode/gallery/vscode/djls/django-language-server/latest - error GET Fetch timeout: 10000ms
+2025-10-24 16:46:52.156 [error] #6: https://open-vsx.org/vscode/gallery/vscode/dlasagno/wal-theme/latest - error GET Fetch timeout: 10000ms
+2025-10-24 16:46:52.160 [error] #7: https://open-vsx.org/vscode/gallery/vscode/donjayamanne/python-environment-manager/latest - error GET Fetch timeout: 10000ms
+2025-10-24 16:46:52.163 [error] #8: https://open-vsx.org/vscode/gallery/vscode/donjayamanne/python-extension-pack/latest - error GET Fetch timeout: 10000ms
+2025-10-24 16:46:52.166 [error] #9: https://open-vsx.org/vscode/gallery/vscode/ericsia/pythonsnippets3/latest - error GET Fetch timeout: 10000ms
+2025-10-24 16:46:52.169 [error] #10: https://open-vsx.org/vscode/gallery/vscode/ericsia/pythonsnippets3pro/latest - error GET Fetch timeout: 10000ms
+2025-10-24 16:46:52.172 [error] #11: https://open-vsx.org/vscode/gallery/vscode/kevinrose/vsc-python-indent/latest - error GET Fetch timeout: 10000ms
+2025-10-24 16:46:52.174 [error] #12: https://open-vsx.org/vscode/gallery/vscode/monosans/djlint/latest - error GET Fetch timeout: 10000ms
+2025-10-24 16:46:52.179 [error] #13: https://open-vsx.org/vscode/gallery/vscode/ms-python/debugpy/latest - error GET Fetch timeout: 10000ms
+2025-10-24 16:46:52.182 [error] #14: https://open-vsx.org/vscode/gallery/vscode/ms-python/python/latest - error GET Fetch timeout: 10000ms
+2025-10-24 16:46:52.186 [error] #15: https://open-vsx.org/vscode/gallery/vscode/ms-python/vscode-python-envs/latest - error GET Fetch timeout: 10000ms
+2025-10-24 16:46:52.189 [error] #16: https://open-vsx.org/vscode/gallery/vscode/njpwerner/autodocstring/latest - error GET Fetch timeout: 10000ms
+2025-10-24 16:46:52.192 [error] #17: https://open-vsx.org/vscode/gallery/vscode/tomi/xajssnippets/latest - error GET Fetch timeout: 10000ms
+2025-10-24 16:46:52.194 [error] #18: https://open-vsx.org/vscode/gallery/vscode/tomi/xasnippets/latest - error GET Fetch timeout: 10000ms
+2025-10-24 16:46:52.197 [error] #19: https://open-vsx.org/vscode/gallery/vscode/wholroyd/jinja/latest - error GET Fetch timeout: 10000ms
+2025-10-24 16:46:52.199 [error] #20: https://open-vsx.org/vscode/gallery/vscode/yy0931/vscode-sqlite3-editor/latest - error GET Fetch timeout: 10000ms
+2025-10-24 16:47:52.026 [error] #22: https://open-vsx.org/vscode/gallery/extensionquery - error POST Canceled
+2025-10-24 16:49:02.445 [error] #32: https://open-vsx.org/vscode/gallery/extensionquery - error POST Canceled

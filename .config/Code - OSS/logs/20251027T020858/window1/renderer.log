@@ -1,0 +1,992 @@
+2025-10-27 02:09:09.468 [info] Started local extension host with pid 6671.
+2025-10-27 02:09:19.157 [error] Extension 'KylinIDETeam.python CANNOT USE these API proposals 'quickPickSortByLabel, testObserver'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-10-27 02:09:19.169 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes, debugVisualization, contribViewsWelcome'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-10-27 02:09:19.174 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-10-27 02:09:19.176 [error] Extension 'ms-python.vscode-python-envs CANNOT USE these API proposals 'terminalShellEnv'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-10-27 02:09:19.823 [info] [ms-python.python]: Command `python.createNewFile` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-10-27 02:09:19.833 [info] [ms-python.python]: Command `python.analysis.restartLanguageServer` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-10-27 02:09:19.834 [info] [ms-python.python]: Command `python.clearCacheAndReload` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-10-27 02:09:19.850 [info] [ms-python.python]: Command `python.clearWorkspaceInterpreter` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-10-27 02:09:19.863 [info] [ms-python.python]: Command `python.configureTests` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-10-27 02:09:19.873 [info] [ms-python.python]: Command `python.createTerminal` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-10-27 02:09:19.874 [info] [ms-python.python]: Command `python.createEnvironment` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-10-27 02:09:19.887 [info] [ms-python.python]: Command `python.createEnvironment-button` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-10-27 02:09:19.888 [info] [ms-python.python]: Command `python.execInTerminal` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-10-27 02:09:19.897 [info] [ms-python.python]: Command `python.execInTerminal-icon` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-10-27 02:09:19.898 [info] [ms-python.python]: Command `python.execInDedicatedTerminal` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-10-27 02:09:19.909 [info] [ms-python.python]: Command `python.execSelectionInDjangoShell` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-10-27 02:09:19.913 [info] [ms-python.python]: Command `python.execSelectionInTerminal` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-10-27 02:09:19.924 [info] [ms-python.python]: Command `python.reportIssue` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-10-27 02:09:19.932 [info] [ms-python.python]: Command `testing.reRunFailTests` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-10-27 02:09:19.934 [info] [ms-python.python]: Command `python.setInterpreter` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-10-27 02:09:19.944 [info] [ms-python.python]: Command `python.startREPL` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-10-27 02:09:19.958 [info] [ms-python.python]: Command `python.viewLanguageServerOutput` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-10-27 02:09:19.959 [info] [ms-python.python]: Command `python.viewOutput` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-10-27 02:09:20.017 [info] [ms-python.python]: The `python.run` submenu was already previously registered.
+2025-10-27 02:09:20.019 [info] [ms-python.python]: The `python.runFileInteractive` submenu was already previously registered.
+2025-10-27 02:09:20.070 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2025-10-27 02:09:20.093 [warning] [ms-python.python]: The `python.run` submenu was already contributed to the `editor/context` menu.
+2025-10-27 02:09:20.148 [warning] [ms-python.python]: Cannot register 'python.activeStateToolPath'. This property is already registered.
+2025-10-27 02:09:20.149 [warning] [ms-python.python]: Cannot register 'python.autoComplete.extraPaths'. This property is already registered.
+2025-10-27 02:09:20.155 [warning] [ms-python.python]: Cannot register 'python.createEnvironment.contentButton'. This property is already registered.
+2025-10-27 02:09:20.157 [warning] [ms-python.python]: Cannot register 'python.createEnvironment.trigger'. This property is already registered.
+2025-10-27 02:09:20.163 [warning] [ms-python.python]: Cannot register 'python.condaPath'. This property is already registered.
+2025-10-27 02:09:20.170 [warning] [ms-python.python]: Cannot register 'python.defaultInterpreterPath'. This property is already registered.
+2025-10-27 02:09:20.175 [warning] [ms-python.python]: Cannot register 'python.envFile'. This property is already registered.
+2025-10-27 02:09:20.184 [warning] [ms-python.python]: Cannot register 'python.experiments.enabled'. This property is already registered.
+2025-10-27 02:09:20.185 [warning] [ms-python.python]: Cannot register 'python.experiments.optInto'. This property is already registered.
+2025-10-27 02:09:20.203 [warning] [ms-python.python]: Cannot register 'python.experiments.optOutFrom'. This property is already registered.
+2025-10-27 02:09:20.204 [warning] [ms-python.python]: Cannot register 'python.globalModuleInstallation'. This property is already registered.
+2025-10-27 02:09:20.204 [warning] [ms-python.python]: Cannot register 'python.languageServer'. This property is already registered.
+2025-10-27 02:09:20.217 [warning] [ms-python.python]: Cannot register 'python.interpreter.infoVisibility'. This property is already registered.
+2025-10-27 02:09:20.218 [warning] [ms-python.python]: Cannot register 'python.logging.level'. This property is already registered.
+2025-10-27 02:09:20.228 [warning] [ms-python.python]: Cannot register 'python.missingPackage.severity'. This property is already registered.
+2025-10-27 02:09:20.229 [warning] [ms-python.python]: Cannot register 'python.pipenvPath'. This property is already registered.
+2025-10-27 02:09:20.239 [warning] [ms-python.python]: Cannot register 'python.poetryPath'. This property is already registered.
+2025-10-27 02:09:20.241 [warning] [ms-python.python]: Cannot register 'python.terminal.activateEnvInCurrentTerminal'. This property is already registered.
+2025-10-27 02:09:20.247 [warning] [ms-python.python]: Cannot register 'python.terminal.activateEnvironment'. This property is already registered.
+2025-10-27 02:09:20.248 [warning] [ms-python.python]: Cannot register 'python.terminal.executeInFileDir'. This property is already registered.
+2025-10-27 02:09:20.256 [warning] [ms-python.python]: Cannot register 'python.terminal.focusAfterLaunch'. This property is already registered.
+2025-10-27 02:09:20.263 [warning] [ms-python.python]: Cannot register 'python.terminal.launchArgs'. This property is already registered.
+2025-10-27 02:09:20.264 [warning] [ms-python.python]: Cannot register 'python.REPL.enableREPLSmartSend'. This property is already registered.
+2025-10-27 02:09:20.270 [warning] [ms-python.python]: Cannot register 'python.testing.autoTestDiscoverOnSaveEnabled'. This property is already registered.
+2025-10-27 02:09:20.271 [warning] [ms-python.python]: Cannot register 'python.testing.cwd'. This property is already registered.
+2025-10-27 02:09:20.281 [warning] [ms-python.python]: Cannot register 'python.testing.debugPort'. This property is already registered.
+2025-10-27 02:09:20.282 [warning] [ms-python.python]: Cannot register 'python.testing.promptToConfigure'. This property is already registered.
+2025-10-27 02:09:20.289 [warning] [ms-python.python]: Cannot register 'python.testing.pytestArgs'. This property is already registered.
+2025-10-27 02:09:20.290 [warning] [ms-python.python]: Cannot register 'python.testing.pytestEnabled'. This property is already registered.
+2025-10-27 02:09:20.293 [warning] [ms-python.python]: Cannot register 'python.testing.pytestPath'. This property is already registered.
+2025-10-27 02:09:20.302 [warning] [ms-python.python]: Cannot register 'python.testing.unittestArgs'. This property is already registered.
+2025-10-27 02:09:20.311 [warning] [ms-python.python]: Cannot register 'python.testing.unittestEnabled'. This property is already registered.
+2025-10-27 02:09:20.312 [warning] [ms-python.python]: Cannot register 'python.venvFolders'. This property is already registered.
+2025-10-27 02:09:20.324 [warning] [ms-python.python]: Cannot register 'python.venvPath'. This property is already registered.
+2025-10-27 02:09:29.667 [info] Extension host (LocalProcess pid: 6671) is unresponsive.
+2025-10-27 02:09:29.742 [error] Error while getting the latest version for the extension monosans.djlint. Error: Unexpected HTTP response: 429
+2025-10-27 02:09:30.477 [error] Error while getting the latest version for the extension alexgoni.short-react-snippets. SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open VSX Registry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+
+    <!-- Eclipse Cookie Consent -->
+    <link rel="stylesheet" type="text/css"
+        href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+    <script
+        src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js">
+    </script>
+    <style>
+        a.cc-btn.cc-allow {
+            background-color: #c160ef;
+        }
+        a.cc-btn.cc-allow:hover, a.cc-btn.cc-allow:focus {
+            background-color: #444;
+        }
+        .cc-revoke {
+            display: none !important;
+        }
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="main"></div>
+    <script src='/bundle.js' ></script>
+</body>
+
+</html>
+
+2025-10-27 02:09:30.533 [error] Error while getting the latest version for the extension alexcvzz.vscode-sqlite. SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open VSX Registry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+
+    <!-- Eclipse Cookie Consent -->
+    <link rel="stylesheet" type="text/css"
+        href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+    <script
+        src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js">
+    </script>
+    <style>
+        a.cc-btn.cc-allow {
+            background-color: #c160ef;
+        }
+        a.cc-btn.cc-allow:hover, a.cc-btn.cc-allow:focus {
+            background-color: #444;
+        }
+        .cc-revoke {
+            display: none !important;
+        }
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="main"></div>
+    <script src='/bundle.js' ></script>
+</body>
+
+</html>
+
+2025-10-27 02:09:31.044 [error] Error while getting the latest version for the extension donjayamanne.python-extension-pack. SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open VSX Registry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+
+    <!-- Eclipse Cookie Consent -->
+    <link rel="stylesheet" type="text/css"
+        href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+    <script
+        src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js">
+    </script>
+    <style>
+        a.cc-btn.cc-allow {
+            background-color: #c160ef;
+        }
+        a.cc-btn.cc-allow:hover, a.cc-btn.cc-allow:focus {
+            background-color: #444;
+        }
+        .cc-revoke {
+            display: none !important;
+        }
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="main"></div>
+    <script src='/bundle.js' ></script>
+</body>
+
+</html>
+
+2025-10-27 02:09:31.258 [error] Error while getting the latest version for the extension dsznajder.es7-react-js-snippets. SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open VSX Registry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+
+    <!-- Eclipse Cookie Consent -->
+    <link rel="stylesheet" type="text/css"
+        href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+    <script
+        src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js">
+    </script>
+    <style>
+        a.cc-btn.cc-allow {
+            background-color: #c160ef;
+        }
+        a.cc-btn.cc-allow:hover, a.cc-btn.cc-allow:focus {
+            background-color: #444;
+        }
+        .cc-revoke {
+            display: none !important;
+        }
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="main"></div>
+    <script src='/bundle.js' ></script>
+</body>
+
+</html>
+
+2025-10-27 02:09:31.601 [error] Error while getting the latest version for the extension njpwerner.autodocstring. SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open VSX Registry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+
+    <!-- Eclipse Cookie Consent -->
+    <link rel="stylesheet" type="text/css"
+        href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+    <script
+        src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js">
+    </script>
+    <style>
+        a.cc-btn.cc-allow {
+            background-color: #c160ef;
+        }
+        a.cc-btn.cc-allow:hover, a.cc-btn.cc-allow:focus {
+            background-color: #444;
+        }
+        .cc-revoke {
+            display: none !important;
+        }
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="main"></div>
+    <script src='/bundle.js' ></script>
+</body>
+
+</html>
+
+2025-10-27 02:09:31.835 [error] Error while getting the latest version for the extension batisteo.vscode-django. SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open VSX Registry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+
+    <!-- Eclipse Cookie Consent -->
+    <link rel="stylesheet" type="text/css"
+        href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+    <script
+        src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js">
+    </script>
+    <style>
+        a.cc-btn.cc-allow {
+            background-color: #c160ef;
+        }
+        a.cc-btn.cc-allow:hover, a.cc-btn.cc-allow:focus {
+            background-color: #444;
+        }
+        .cc-revoke {
+            display: none !important;
+        }
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="main"></div>
+    <script src='/bundle.js' ></script>
+</body>
+
+</html>
+
+2025-10-27 02:09:32.164 [error] Error while getting the latest version for the extension ms-python.vscode-python-envs. SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open VSX Registry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+
+    <!-- Eclipse Cookie Consent -->
+    <link rel="stylesheet" type="text/css"
+        href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+    <script
+        src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js">
+    </script>
+    <style>
+        a.cc-btn.cc-allow {
+            background-color: #c160ef;
+        }
+        a.cc-btn.cc-allow:hover, a.cc-btn.cc-allow:focus {
+            background-color: #444;
+        }
+        .cc-revoke {
+            display: none !important;
+        }
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="main"></div>
+    <script src='/bundle.js' ></script>
+</body>
+
+</html>
+
+2025-10-27 02:09:32.443 [error] Error while getting the latest version for the extension ericsia.pythonsnippets3pro. SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open VSX Registry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+
+    <!-- Eclipse Cookie Consent -->
+    <link rel="stylesheet" type="text/css"
+        href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+    <script
+        src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js">
+    </script>
+    <style>
+        a.cc-btn.cc-allow {
+            background-color: #c160ef;
+        }
+        a.cc-btn.cc-allow:hover, a.cc-btn.cc-allow:focus {
+            background-color: #444;
+        }
+        .cc-revoke {
+            display: none !important;
+        }
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="main"></div>
+    <script src='/bundle.js' ></script>
+</body>
+
+</html>
+
+2025-10-27 02:09:32.791 [error] Error while getting the latest version for the extension djls.django-language-server. SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open VSX Registry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+
+    <!-- Eclipse Cookie Consent -->
+    <link rel="stylesheet" type="text/css"
+        href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+    <script
+        src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js">
+    </script>
+    <style>
+        a.cc-btn.cc-allow {
+            background-color: #c160ef;
+        }
+        a.cc-btn.cc-allow:hover, a.cc-btn.cc-allow:focus {
+            background-color: #444;
+        }
+        .cc-revoke {
+            display: none !important;
+        }
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="main"></div>
+    <script src='/bundle.js' ></script>
+</body>
+
+</html>
+
+2025-10-27 02:09:33.066 [error] Error while getting the latest version for the extension dlasagno.wal-theme. SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open VSX Registry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+
+    <!-- Eclipse Cookie Consent -->
+    <link rel="stylesheet" type="text/css"
+        href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+    <script
+        src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js">
+    </script>
+    <style>
+        a.cc-btn.cc-allow {
+            background-color: #c160ef;
+        }
+        a.cc-btn.cc-allow:hover, a.cc-btn.cc-allow:focus {
+            background-color: #444;
+        }
+        .cc-revoke {
+            display: none !important;
+        }
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="main"></div>
+    <script src='/bundle.js' ></script>
+</body>
+
+</html>
+
+2025-10-27 02:09:33.462 [error] Error while getting the latest version for the extension wholroyd.jinja. SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open VSX Registry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+
+    <!-- Eclipse Cookie Consent -->
+    <link rel="stylesheet" type="text/css"
+        href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+    <script
+        src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js">
+    </script>
+    <style>
+        a.cc-btn.cc-allow {
+            background-color: #c160ef;
+        }
+        a.cc-btn.cc-allow:hover, a.cc-btn.cc-allow:focus {
+            background-color: #444;
+        }
+        .cc-revoke {
+            display: none !important;
+        }
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="main"></div>
+    <script src='/bundle.js' ></script>
+</body>
+
+</html>
+
+2025-10-27 02:09:33.826 [error] Error while getting the latest version for the extension yy0931.vscode-sqlite3-editor. SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open VSX Registry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+
+    <!-- Eclipse Cookie Consent -->
+    <link rel="stylesheet" type="text/css"
+        href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+    <script
+        src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js">
+    </script>
+    <style>
+        a.cc-btn.cc-allow {
+            background-color: #c160ef;
+        }
+        a.cc-btn.cc-allow:hover, a.cc-btn.cc-allow:focus {
+            background-color: #444;
+        }
+        .cc-revoke {
+            display: none !important;
+        }
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="main"></div>
+    <script src='/bundle.js' ></script>
+</body>
+
+</html>
+
+2025-10-27 02:09:33.827 [info] Extension host (LocalProcess pid: 6671) is responsive.
+2025-10-27 02:09:34.585 [error] Error while getting the latest version for the extension kevinrose.vsc-python-indent. SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open VSX Registry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+
+    <!-- Eclipse Cookie Consent -->
+    <link rel="stylesheet" type="text/css"
+        href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+    <script
+        src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js">
+    </script>
+    <style>
+        a.cc-btn.cc-allow {
+            background-color: #c160ef;
+        }
+        a.cc-btn.cc-allow:hover, a.cc-btn.cc-allow:focus {
+            background-color: #444;
+        }
+        .cc-revoke {
+            display: none !important;
+        }
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="main"></div>
+    <script src='/bundle.js' ></script>
+</body>
+
+</html>
+
+2025-10-27 02:09:34.636 [error] Error while getting the latest version for the extension donjayamanne.python-environment-manager. SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open VSX Registry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+
+    <!-- Eclipse Cookie Consent -->
+    <link rel="stylesheet" type="text/css"
+        href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+    <script
+        src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js">
+    </script>
+    <style>
+        a.cc-btn.cc-allow {
+            background-color: #c160ef;
+        }
+        a.cc-btn.cc-allow:hover, a.cc-btn.cc-allow:focus {
+            background-color: #444;
+        }
+        .cc-revoke {
+            display: none !important;
+        }
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="main"></div>
+    <script src='/bundle.js' ></script>
+</body>
+
+</html>
+
+2025-10-27 02:09:34.692 [error] Error while getting the latest version for the extension bfrangi.vscode-django-tex. SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open VSX Registry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+
+    <!-- Eclipse Cookie Consent -->
+    <link rel="stylesheet" type="text/css"
+        href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+    <script
+        src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js">
+    </script>
+    <style>
+        a.cc-btn.cc-allow {
+            background-color: #c160ef;
+        }
+        a.cc-btn.cc-allow:hover, a.cc-btn.cc-allow:focus {
+            background-color: #444;
+        }
+        .cc-revoke {
+            display: none !important;
+        }
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="main"></div>
+    <script src='/bundle.js' ></script>
+</body>
+
+</html>
+
+2025-10-27 02:09:34.920 [error] Error while getting the latest version for the extension shishirsingh.easy-react-snippet. SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open VSX Registry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+
+    <!-- Eclipse Cookie Consent -->
+    <link rel="stylesheet" type="text/css"
+        href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+    <script
+        src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js">
+    </script>
+    <style>
+        a.cc-btn.cc-allow {
+            background-color: #c160ef;
+        }
+        a.cc-btn.cc-allow:hover, a.cc-btn.cc-allow:focus {
+            background-color: #444;
+        }
+        .cc-revoke {
+            display: none !important;
+        }
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="main"></div>
+    <script src='/bundle.js' ></script>
+</body>
+
+</html>
+
+2025-10-27 02:09:35.401 [error] Error while getting the latest version for the extension tomi.xasnippets. SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open VSX Registry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+
+    <!-- Eclipse Cookie Consent -->
+    <link rel="stylesheet" type="text/css"
+        href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+    <script
+        src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js">
+    </script>
+    <style>
+        a.cc-btn.cc-allow {
+            background-color: #c160ef;
+        }
+        a.cc-btn.cc-allow:hover, a.cc-btn.cc-allow:focus {
+            background-color: #444;
+        }
+        .cc-revoke {
+            display: none !important;
+        }
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="main"></div>
+    <script src='/bundle.js' ></script>
+</body>
+
+</html>
+
+2025-10-27 02:09:35.544 [error] Error while getting the latest version for the extension ericsia.pythonsnippets3. SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open VSX Registry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+
+    <!-- Eclipse Cookie Consent -->
+    <link rel="stylesheet" type="text/css"
+        href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+    <script
+        src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js">
+    </script>
+    <style>
+        a.cc-btn.cc-allow {
+            background-color: #c160ef;
+        }
+        a.cc-btn.cc-allow:hover, a.cc-btn.cc-allow:focus {
+            background-color: #444;
+        }
+        .cc-revoke {
+            display: none !important;
+        }
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="main"></div>
+    <script src='/bundle.js' ></script>
+</body>
+
+</html>
+
+2025-10-27 02:09:35.673 [error] Error while getting the latest version for the extension kylinideteam.python. Error: Fetch timeout: 10000ms
+2025-10-27 02:09:35.776 [error] Error while getting the latest version for the extension mikoz.black-py. Error: Fetch timeout: 10000ms
+2025-10-27 02:09:35.797 [error] Error while getting the latest version for the extension ms-python.debugpy. Error: Fetch timeout: 10000ms
+2025-10-27 02:09:35.808 [error] Error while getting the latest version for the extension ms-python.python. Error: Fetch timeout: 10000ms
+2025-10-27 02:09:35.868 [error] Error while getting the latest version for the extension tomi.xajssnippets. Error: Fetch timeout: 10000ms
+2025-10-27 02:09:38.503 [info] [perf] Render performance baseline is -1ms
+2025-10-27 02:09:43.271 [info] Extension host (LocalProcess pid: 6671) is unresponsive.
+2025-10-27 02:09:50.754 [info] Extension host (LocalProcess pid: 6671) is responsive.
+2025-10-27 02:09:59.110 [error] An unknown error occurred. Please consult the log for more details.

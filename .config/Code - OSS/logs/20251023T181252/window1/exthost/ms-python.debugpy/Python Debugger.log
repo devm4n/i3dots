@@ -1,0 +1,13 @@
+2025-10-23 18:17:13.408 [error] sendDebugpySuccessActivationTelemetry() failed. [Error: Extension 'ms-python.debugpy' CANNOT use API proposal: portsAttributes.
+Its package.json#enabledApiProposals-property declares:  but NOT portsAttributes.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.debugpy
+	at T (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:33264)
+	at Object.registerPortAttributesProvider (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:201:124044)
+	at t.registerDebugger (/home/devm4n/.vscode-oss/extensions/ms-python.debugpy-2025.14.1-linux-x64/dist/extension.js:2:862293)
+	at e.activate (/home/devm4n/.vscode-oss/extensions/ms-python.debugpy-2025.14.1-linux-x64/dist/extension.js:2:1113992)
+	at Py.kb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:15303)
+	at Py.jb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:15048)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:13206
+	at async Gb.n (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:13382)
+	at async Gb.m (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:13345)
+	at async Gb.l (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:12801)]

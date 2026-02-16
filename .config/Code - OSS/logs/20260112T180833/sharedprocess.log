@@ -1,0 +1,20 @@
+2026-01-12 18:09:15.222 [info] Getting Manifest... ms-python.python
+2026-01-12 18:09:15.266 [info] Getting Manifest... ms-python.vscode-python-envs
+2026-01-12 18:09:16.889 [info] Installing extension: ms-python.vscode-python-envs {"productVersion":{"version":"1.107.1","date":"2025-12-19T12:27:49.310Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/devm4n/.vscode-oss/extensions/extensions.json","path":"/home/devm4n/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"}}
+2026-01-12 18:09:16.902 [info] Installing extension: ms-python.python {"productVersion":{"version":"1.107.1","date":"2025-12-19T12:27:49.310Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/devm4n/.vscode-oss/extensions/extensions.json","path":"/home/devm4n/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"}}
+2026-01-12 18:09:36.730 [info] Extension signature verification result for ms-python.vscode-python-envs: Success. Executed: true. Duration: 2362ms.
+2026-01-12 18:09:37.550 [info] Extracted extension to file:///home/devm4n/.vscode-oss/extensions/ms-python.vscode-python-envs-1.16.0-universal: ms-python.vscode-python-envs
+2026-01-12 18:09:37.674 [info] Extension signature verification result for ms-python.python: Success. Executed: true. Duration: 2843ms.
+2026-01-12 18:09:37.692 [info] Renamed to /home/devm4n/.vscode-oss/extensions/ms-python.vscode-python-envs-1.16.0-universal
+2026-01-12 18:09:37.884 [info] Marked extension as removed ms-python.vscode-python-envs-1.14.0-universal
+2026-01-12 18:09:37.935 [info] Extension installed successfully: ms-python.vscode-python-envs vscode-userdata:/home/devm4n/.vscode-oss/extensions/extensions.json
+2026-01-12 18:09:43.938 [info] Extracted extension to file:///home/devm4n/.vscode-oss/extensions/ms-python.python-2026.0.0-universal: ms-python.python
+2026-01-12 18:09:44.389 [info] Renamed to /home/devm4n/.vscode-oss/extensions/ms-python.python-2026.0.0-universal
+2026-01-12 18:09:44.514 [info] Marked extension as removed ms-python.python-2025.20.1-universal
+2026-01-12 18:09:44.578 [info] Extension installed successfully: ms-python.python vscode-userdata:/home/devm4n/.vscode-oss/extensions/extensions.json
+2026-01-12 18:10:07.359 [info] Getting Manifest... charliermarsh.ruff
+2026-01-12 18:10:07.688 [info] Installing extension: charliermarsh.ruff {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/devm4n/.vscode-oss/extensions/extensions.json","path":"/home/devm4n/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.107.1","date":"2025-12-19T12:27:49.310Z"}}
+2026-01-12 18:10:12.548 [info] Extension signature verification result for charliermarsh.ruff: Success. Executed: true. Duration: 1748ms.
+2026-01-12 18:10:14.823 [info] Extracted extension to file:///home/devm4n/.vscode-oss/extensions/charliermarsh.ruff-2026.34.0-linux-x64: charliermarsh.ruff
+2026-01-12 18:10:14.921 [info] Renamed to /home/devm4n/.vscode-oss/extensions/charliermarsh.ruff-2026.34.0-linux-x64
+2026-01-12 18:10:15.239 [info] Extension installed successfully: charliermarsh.ruff vscode-userdata:/home/devm4n/.vscode-oss/extensions/extensions.json

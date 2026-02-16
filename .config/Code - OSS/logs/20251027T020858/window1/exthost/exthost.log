@@ -1,0 +1,44 @@
+2025-10-27 02:09:20.271 [info] Extension host with pid 6671 started
+2025-10-27 02:09:20.271 [info] Skipping acquiring lock for /home/devm4n/.config/Code - OSS/User/workspaceStorage/18caf6a96f3a3554f2182eb2de03d599.
+2025-10-27 02:09:25.186 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-10-27 02:09:25.520 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascriptreact'
+2025-10-27 02:09:26.681 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-10-27 02:09:26.731 [info] ExtensionService#_doActivateExtension dlasagno.wal-theme, startup: true, activationEvent: '*'
+2025-10-27 02:09:27.105 [info] ExtensionService#_doActivateExtension KylinIDETeam.python, startup: true, activationEvent: 'workspaceContains:requirements.txt'
+2025-10-27 02:09:30.708 [info] ExtensionService#_doActivateExtension ms-python.python, startup: true, activationEvent: 'workspaceContains:requirements.txt'
+2025-10-27 02:09:33.809 [info] Not activating extension 'djls.django-language-server': Timed out while searching for 'workspaceContains' pattern **/manage.py
+2025-10-27 02:09:33.809 [info] Not activating extension 'mikoz.black-py': Timed out while searching for 'workspaceContains' pattern *.py
+2025-10-27 02:09:33.809 [info] Not activating extension 'ms-python.python': Timed out while searching for 'workspaceContains' pattern **/pylock.*.toml
+2025-10-27 02:09:37.693 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-10-27 02:09:38.671 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-10-27 02:09:38.750 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2025-10-27 02:09:39.882 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-10-27 02:09:39.991 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-10-27 02:09:40.283 [info] ExtensionService#_doActivateExtension dsznajder.es7-react-js-snippets, startup: false, activationEvent: 'onStartupFinished'
+2025-10-27 02:09:49.071 [info] ExtensionService#_doActivateExtension monosans.djlint, startup: false, activationEvent: 'onStartupFinished'
+2025-10-27 02:09:49.635 [info] ExtensionService#_doActivateExtension yy0931.vscode-sqlite3-editor, startup: false, activationEvent: 'onStartupFinished'
+2025-10-27 02:09:58.698 [error] Error: Extension 'KylinIDETeam.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api KylinIDETeam.python
+	at T (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:33264)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:201:107449)
+	at T.activate (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:846553)
+	at /home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:2460
+	at Array.map (<anonymous>)
+	at g.activateWorkspace (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:2450)
+2025-10-27 02:09:59.582 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-10-27 02:10:09.066 [error] Activating extension ms-python.python failed due to an error:
+2025-10-27 02:10:09.066 [error] Error: command 'python.viewOutput' already exists
+	at iy.registerCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:40315)
+	at Object.registerCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:201:104312)
+	at s.registerCommand (/home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:129447)
+	at /home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:477886
+	at async t.activateComponents (/home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:476850)
+	at async /home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:2701666
+	at async e (/home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:2701198)
+	at async Gb.n (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:13382)
+	at async Gb.m (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:13345)
+	at async Gb.l (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:12801)
+2025-10-27 02:10:09.067 [info] Eager extensions activated
+2025-10-27 02:14:35.076 [info] Extension host terminating: renderer closed the MessagePort
+2025-10-27 02:14:36.768 [info] Extension host with pid 6671 exiting with code 0

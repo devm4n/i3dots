@@ -1,0 +1,133 @@
+2025-10-24 16:46:33.891 [info] Started local extension host with pid 960.
+2025-10-24 16:46:36.090 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes, debugVisualization, contribViewsWelcome'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-10-24 16:46:36.092 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-10-24 16:46:36.094 [error] Extension 'ms-python.vscode-python-envs CANNOT USE these API proposals 'terminalShellEnv'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-10-24 16:46:36.421 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2025-10-24 16:46:49.739 [info] [perf] Render performance baseline is 987ms
+2025-10-24 16:46:52.129 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-24 16:46:52.140 [error] Error while getting the latest version for the extension alexcvzz.vscode-sqlite. Error: Fetch timeout: 10000ms
+2025-10-24 16:46:52.146 [error] Error while getting the latest version for the extension alexgoni.short-react-snippets. Error: Fetch timeout: 10000ms
+2025-10-24 16:46:52.150 [error] Error while getting the latest version for the extension batisteo.vscode-django. Error: Fetch timeout: 10000ms
+2025-10-24 16:46:52.152 [error] Error while getting the latest version for the extension bfrangi.vscode-django-tex. Error: Fetch timeout: 10000ms
+2025-10-24 16:46:52.154 [error] Error while getting the latest version for the extension djls.django-language-server. Error: Fetch timeout: 10000ms
+2025-10-24 16:46:52.157 [error] Error while getting the latest version for the extension dlasagno.wal-theme. Error: Fetch timeout: 10000ms
+2025-10-24 16:46:52.161 [error] Error while getting the latest version for the extension donjayamanne.python-environment-manager. Error: Fetch timeout: 10000ms
+2025-10-24 16:46:52.163 [error] Error while getting the latest version for the extension donjayamanne.python-extension-pack. Error: Fetch timeout: 10000ms
+2025-10-24 16:46:52.167 [error] Error while getting the latest version for the extension ericsia.pythonsnippets3. Error: Fetch timeout: 10000ms
+2025-10-24 16:46:52.171 [error] Error while getting the latest version for the extension ericsia.pythonsnippets3pro. Error: Fetch timeout: 10000ms
+2025-10-24 16:46:52.173 [error] Error while getting the latest version for the extension kevinrose.vsc-python-indent. Error: Fetch timeout: 10000ms
+2025-10-24 16:46:52.176 [error] Error while getting the latest version for the extension monosans.djlint. Error: Fetch timeout: 10000ms
+2025-10-24 16:46:52.182 [error] Error while getting the latest version for the extension ms-python.debugpy. Error: Fetch timeout: 10000ms
+2025-10-24 16:46:52.184 [error] Error while getting the latest version for the extension ms-python.python. Error: Fetch timeout: 10000ms
+2025-10-24 16:46:52.187 [error] Error while getting the latest version for the extension ms-python.vscode-python-envs. Error: Fetch timeout: 10000ms
+2025-10-24 16:46:52.191 [error] Error while getting the latest version for the extension njpwerner.autodocstring. Error: Fetch timeout: 10000ms
+2025-10-24 16:46:52.193 [error] Error while getting the latest version for the extension tomi.xajssnippets. Error: Fetch timeout: 10000ms
+2025-10-24 16:46:52.195 [error] Error while getting the latest version for the extension tomi.xasnippets. Error: Fetch timeout: 10000ms
+2025-10-24 16:46:52.198 [error] Error while getting the latest version for the extension wholroyd.jinja. Error: Fetch timeout: 10000ms
+2025-10-24 16:46:52.202 [error] Error while getting the latest version for the extension yy0931.vscode-sqlite3-editor. Error: Fetch timeout: 10000ms
+2025-10-24 16:49:40.303 [error] Can only set when there is a listener! This is to prevent leaks.: Error: Can only set when there is a listener! This is to prevent leaks.
+    at DMt.set (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:455:2798)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:456:13219
+    at Vi (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:30:103828)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:456:12993
+    at async wWe.trigger (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:456:35633)
+2025-10-24 16:59:44.557 [info] Unable to reload {0}: {1} file:///home/devm4n/.vscode-oss/extensions/dlasagno.wal-theme-1.1.2-universal/themes/wal.json
+2025-10-24 17:16:11.482 [error] Can only set when there is a listener! This is to prevent leaks.: Error: Can only set when there is a listener! This is to prevent leaks.
+    at DMt.set (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:455:2798)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:456:13219
+    at Vi (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:30:103828)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:456:12993
+    at async wWe.trigger (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:456:35633)
+2025-10-24 17:16:13.917 [error] Can only set when there is a listener! This is to prevent leaks.: Error: Can only set when there is a listener! This is to prevent leaks.
+    at DMt.set (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:455:2798)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:456:13219
+    at Vi (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:30:103828)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:456:12993
+    at async wWe.trigger (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:456:35633)
+2025-10-24 17:16:14.090 [error] Can only set when there is a listener! This is to prevent leaks.: Error: Can only set when there is a listener! This is to prevent leaks.
+    at DMt.set (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:455:2798)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:456:13055
+    at Vi (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:30:103828)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:456:12993
+2025-10-24 17:16:14.421 [error] Can only set when there is a listener! This is to prevent leaks.: Error: Can only set when there is a listener! This is to prevent leaks.
+    at DMt.set (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:455:2798)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:456:13055
+    at Vi (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:30:103828)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:456:12993
+    at async wWe.trigger (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:456:35633)
+2025-10-24 17:16:15.261 [error] Can only set when there is a listener! This is to prevent leaks.: Error: Can only set when there is a listener! This is to prevent leaks.
+    at DMt.set (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:455:2798)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:456:13219
+    at Vi (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:30:103828)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:456:12993
+    at async wWe.trigger (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:456:35633)
+2025-10-24 17:27:35.030 [info] Unable to reload {0}: {1} file:///home/devm4n/.vscode-oss/extensions/dlasagno.wal-theme-1.1.2-universal/themes/wal.json
+2025-10-24 17:31:24.325 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2025-10-24 17:31:35.342 [error] [Extension Host] Stderr: /home/devm4n/Manav-Code/fullstack-projects/snipode/.venv/bin/python: No module named black
+
+2025-10-24 17:31:44.797 [info] Unable to reload {0}: {1} file:///home/devm4n/.vscode-oss/extensions/dlasagno.wal-theme-1.1.2-universal/themes/wal.json
+2025-10-24 17:31:44.854 [info] Unable to reload {0}: {1} file:///home/devm4n/.vscode-oss/extensions/dlasagno.wal-theme-1.1.2-universal/themes/wal.json
+2025-10-24 17:31:44.862 [info] Unable to reload {0}: {1} file:///home/devm4n/.vscode-oss/extensions/dlasagno.wal-theme-1.1.2-universal/themes/wal.json
+2025-10-24 17:31:44.872 [info] Unable to reload {0}: {1} file:///home/devm4n/.vscode-oss/extensions/dlasagno.wal-theme-1.1.2-universal/themes/wal.json
+2025-10-24 17:31:54.729 [error] [Extension Host] Stderr: /home/devm4n/Manav-Code/fullstack-projects/snipode/.venv/bin/python: No module named black
+
+2025-10-24 17:31:59.381 [error] Extension 'KylinIDETeam.python CANNOT USE these API proposals 'quickPickSortByLabel, testObserver'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-10-24 17:31:59.440 [info] [ms-python.python]: Command `python.createNewFile` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-10-24 17:31:59.444 [info] [ms-python.python]: Command `python.analysis.restartLanguageServer` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-10-24 17:31:59.446 [info] [ms-python.python]: Command `python.clearCacheAndReload` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-10-24 17:31:59.447 [info] [ms-python.python]: Command `python.clearWorkspaceInterpreter` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-10-24 17:31:59.454 [info] [ms-python.python]: Command `python.configureTests` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-10-24 17:31:59.457 [info] [ms-python.python]: Command `python.createTerminal` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-10-24 17:31:59.458 [info] [ms-python.python]: Command `python.createEnvironment` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-10-24 17:31:59.461 [info] [ms-python.python]: Command `python.createEnvironment-button` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-10-24 17:31:59.463 [info] [ms-python.python]: Command `python.execInTerminal` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-10-24 17:31:59.464 [info] [ms-python.python]: Command `python.execInTerminal-icon` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-10-24 17:31:59.471 [info] [ms-python.python]: Command `python.execInDedicatedTerminal` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-10-24 17:31:59.472 [info] [ms-python.python]: Command `python.execSelectionInDjangoShell` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-10-24 17:31:59.473 [info] [ms-python.python]: Command `python.execSelectionInTerminal` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-10-24 17:31:59.474 [info] [ms-python.python]: Command `python.reportIssue` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-10-24 17:31:59.475 [info] [ms-python.python]: Command `testing.reRunFailTests` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-10-24 17:31:59.476 [info] [ms-python.python]: Command `python.setInterpreter` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-10-24 17:31:59.477 [info] [ms-python.python]: Command `python.startREPL` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-10-24 17:31:59.478 [info] [ms-python.python]: Command `python.viewLanguageServerOutput` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-10-24 17:31:59.479 [info] [ms-python.python]: Command `python.viewOutput` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-10-24 17:31:59.484 [info] [ms-python.python]: The `python.run` submenu was already previously registered.
+2025-10-24 17:31:59.485 [info] [ms-python.python]: The `python.runFileInteractive` submenu was already previously registered.
+2025-10-24 17:31:59.486 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2025-10-24 17:31:59.487 [warning] [ms-python.python]: The `python.run` submenu was already contributed to the `editor/context` menu.
+2025-10-24 17:31:59.488 [warning] [KylinIDETeam.python]: Cannot register 'python.activeStateToolPath'. This property is already registered.
+2025-10-24 17:31:59.488 [warning] [KylinIDETeam.python]: Cannot register 'python.autoComplete.extraPaths'. This property is already registered.
+2025-10-24 17:31:59.490 [warning] [KylinIDETeam.python]: Cannot register 'python.createEnvironment.contentButton'. This property is already registered.
+2025-10-24 17:31:59.490 [warning] [KylinIDETeam.python]: Cannot register 'python.createEnvironment.trigger'. This property is already registered.
+2025-10-24 17:31:59.491 [warning] [KylinIDETeam.python]: Cannot register 'python.condaPath'. This property is already registered.
+2025-10-24 17:31:59.492 [warning] [KylinIDETeam.python]: Cannot register 'python.defaultInterpreterPath'. This property is already registered.
+2025-10-24 17:31:59.493 [warning] [KylinIDETeam.python]: Cannot register 'python.envFile'. This property is already registered.
+2025-10-24 17:31:59.494 [warning] [KylinIDETeam.python]: Cannot register 'python.experiments.enabled'. This property is already registered.
+2025-10-24 17:31:59.495 [warning] [KylinIDETeam.python]: Cannot register 'python.experiments.optInto'. This property is already registered.
+2025-10-24 17:31:59.495 [warning] [KylinIDETeam.python]: Cannot register 'python.experiments.optOutFrom'. This property is already registered.
+2025-10-24 17:31:59.496 [warning] [KylinIDETeam.python]: Cannot register 'python.globalModuleInstallation'. This property is already registered.
+2025-10-24 17:31:59.497 [warning] [KylinIDETeam.python]: Cannot register 'python.languageServer'. This property is already registered.
+2025-10-24 17:31:59.498 [warning] [KylinIDETeam.python]: Cannot register 'python.interpreter.infoVisibility'. This property is already registered.
+2025-10-24 17:31:59.499 [warning] [KylinIDETeam.python]: Cannot register 'python.logging.level'. This property is already registered.
+2025-10-24 17:31:59.501 [warning] [KylinIDETeam.python]: Cannot register 'python.missingPackage.severity'. This property is already registered.
+2025-10-24 17:31:59.502 [warning] [KylinIDETeam.python]: Cannot register 'python.pipenvPath'. This property is already registered.
+2025-10-24 17:31:59.503 [warning] [KylinIDETeam.python]: Cannot register 'python.poetryPath'. This property is already registered.
+2025-10-24 17:31:59.505 [warning] [KylinIDETeam.python]: Cannot register 'python.terminal.activateEnvInCurrentTerminal'. This property is already registered.
+2025-10-24 17:31:59.506 [warning] [KylinIDETeam.python]: Cannot register 'python.terminal.activateEnvironment'. This property is already registered.
+2025-10-24 17:31:59.507 [warning] [KylinIDETeam.python]: Cannot register 'python.terminal.executeInFileDir'. This property is already registered.
+2025-10-24 17:31:59.507 [warning] [KylinIDETeam.python]: Cannot register 'python.terminal.focusAfterLaunch'. This property is already registered.
+2025-10-24 17:31:59.508 [warning] [KylinIDETeam.python]: Cannot register 'python.terminal.launchArgs'. This property is already registered.
+2025-10-24 17:31:59.509 [warning] [KylinIDETeam.python]: Cannot register 'python.REPL.enableREPLSmartSend'. This property is already registered.
+2025-10-24 17:31:59.509 [warning] [KylinIDETeam.python]: Cannot register 'python.testing.autoTestDiscoverOnSaveEnabled'. This property is already registered.
+2025-10-24 17:31:59.510 [warning] [KylinIDETeam.python]: Cannot register 'python.testing.cwd'. This property is already registered.
+2025-10-24 17:31:59.511 [warning] [KylinIDETeam.python]: Cannot register 'python.testing.debugPort'. This property is already registered.
+2025-10-24 17:31:59.512 [warning] [KylinIDETeam.python]: Cannot register 'python.testing.promptToConfigure'. This property is already registered.
+2025-10-24 17:31:59.512 [warning] [KylinIDETeam.python]: Cannot register 'python.testing.pytestArgs'. This property is already registered.
+2025-10-24 17:31:59.514 [warning] [KylinIDETeam.python]: Cannot register 'python.testing.pytestEnabled'. This property is already registered.
+2025-10-24 17:31:59.515 [warning] [KylinIDETeam.python]: Cannot register 'python.testing.pytestPath'. This property is already registered.
+2025-10-24 17:31:59.516 [warning] [KylinIDETeam.python]: Cannot register 'python.testing.unittestArgs'. This property is already registered.
+2025-10-24 17:31:59.517 [warning] [KylinIDETeam.python]: Cannot register 'python.testing.unittestEnabled'. This property is already registered.
+2025-10-24 17:31:59.518 [warning] [KylinIDETeam.python]: Cannot register 'python.venvFolders'. This property is already registered.
+2025-10-24 17:31:59.518 [warning] [KylinIDETeam.python]: Cannot register 'python.venvPath'. This property is already registered.
+2025-10-24 17:32:00.944 [error] [Extension Host] Stderr: /home/devm4n/Manav-Code/fullstack-projects/snipode/.venv/bin/python: No module named black
+

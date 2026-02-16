@@ -1,0 +1,32 @@
+2025-10-27 02:09:57.105 [info] [main] Log level: Info
+2025-10-27 02:09:57.105 [info] [main] Validating found git in: "git"
+2025-10-27 02:09:57.105 [info] [main] Using git "2.51.1.dirty" from "git"
+2025-10-27 02:09:57.105 [info] [Model][doInitialScan] Initial repository scan started
+2025-10-27 02:09:57.105 [info] > git rev-parse --show-toplevel [564ms]
+2025-10-27 02:09:57.105 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [112ms]
+2025-10-27 02:09:57.105 [info] [Model][openRepository] Opened repository (path): /home/devm4n/Manav-Code/Quotify
+2025-10-27 02:09:57.105 [info] [Model][openRepository] Opened repository (real path): /home/devm4n/Manav-Code/Quotify
+2025-10-27 02:09:57.105 [info] [Model][openRepository] Opened repository (kind): repository
+2025-10-27 02:09:57.145 [info] > git rev-parse --show-toplevel [115ms]
+2025-10-27 02:09:57.167 [info] > git config --get commit.template [202ms]
+2025-10-27 02:09:57.456 [info] > git rev-parse --show-toplevel [176ms]
+2025-10-27 02:09:57.615 [info] > git rev-parse --show-toplevel [92ms]
+2025-10-27 02:09:57.618 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [245ms]
+2025-10-27 02:09:57.750 [info] > git rev-parse --show-toplevel [28ms]
+2025-10-27 02:09:57.752 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-10-27 02:09:58.074 [info] > git status -z -uall [293ms]
+2025-10-27 02:09:58.084 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [279ms]
+2025-10-27 02:09:59.070 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [485ms]
+2025-10-27 02:09:59.269 [info] > git config --get --local branch.master.vscode-merge-base [118ms]
+2025-10-27 02:09:59.324 [info] > git config --get commit.template [251ms]
+2025-10-27 02:09:59.369 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [55ms]
+2025-10-27 02:10:00.753 [info] > git merge-base refs/heads/master refs/remotes/origin/master [1188ms]
+2025-10-27 02:10:00.881 [info] > git diff --name-status -z --diff-filter=ADMR f59d07c626444e9eb0ce1fd4c3826f9974a06938...refs/remotes/origin/master [110ms]
+2025-10-27 02:10:00.957 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [214ms]
+2025-10-27 02:10:01.022 [info] > git check-ignore -v -z --stdin [216ms]
+2025-10-27 02:10:01.041 [info] > git ls-files --stage -- frontend/src/components/Comments.jsx [201ms]
+2025-10-27 02:10:01.133 [info] > git status -z -uall [28ms]
+2025-10-27 02:10:01.142 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [20ms]
+2025-10-27 02:10:01.559 [info] > git show --textconv :frontend/src/components/Comments.jsx [735ms]
+2025-10-27 02:10:01.562 [info] > git cat-file -s d71754939c7e1cce609d939650ce082feee55340 [490ms]
+2025-10-27 02:10:05.870 [info] > git blame --root --incremental f59d07c626444e9eb0ce1fd4c3826f9974a06938 -- frontend/src/components/Comments.jsx [2874ms]

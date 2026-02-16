@@ -1,0 +1,80 @@
+2025-10-27 02:09:56.608 [error] Unable to check if shell integration is active [Error: Extension 'KylinIDETeam.python' CANNOT use API proposal: terminalDataWriteEvent.
+Its package.json#enabledApiProposals-property declares:  but NOT terminalDataWriteEvent.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api KylinIDETeam.python
+	at T (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:33264)
+	at a.onDidWriteTerminalData (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:201:114418)
+	at new g (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:817988)
+	at t.resolveInstance (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:1882336)
+	at /home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:1884244
+	at Array.map (<anonymous>)
+	at t.resolveInstance (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:1882110)
+	at /home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:1884244
+	at Array.map (<anonymous>)
+	at t.resolveInstance (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:1882110)
+	at /home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:1884244
+	at /home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:1883192
+	at Array.map (<anonymous>)
+	at /home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:1883164
+	at Array.map (<anonymous>)
+	at t.resolveInstance (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:1882110)
+	at /home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:1884244
+	at t.resolve (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:1884507)
+	at /home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:1868070
+	at e._get (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:1867836)
+	at e.get (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:1866548)
+	at a.get (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:508216)
+	at /home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:422933
+	at async t.activateComponents (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:420850)
+	at async /home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:2640131
+	at async e (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:2639663)
+	at async Gb.n (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:13382)
+	at async Gb.m (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:13345)
+	at async Gb.l (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:12801)]
+2025-10-27 02:09:56.608 [info] VS Code was launched from an activated environment: '.venv', selecting it as the interpreter for workspace.
+2025-10-27 02:09:56.608 [info] Test server listening.
+2025-10-27 02:09:56.608 [info] Python interpreter path: ./.venv/bin/python
+2025-10-27 02:09:56.608 [warning] Dir "/home/devm4n/Manav-Code/Quotify/.pixi/envs" is not watchable (directory does not exist)
+2025-10-27 02:09:56.608 [error] extension activation failed [Error: command 'python.viewOutput' already exists
+	at iy.registerCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:40315)
+	at Object.registerCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:201:104312)
+	at s.registerCommand (/home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:129447)
+	at /home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:477886
+	at async t.activateComponents (/home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:476850)
+	at async /home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:2701666
+	at async e (/home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:2701198)
+	at async Gb.n (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:13382)
+	at async Gb.m (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:13345)
+	at async Gb.l (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:12801)]
+2025-10-27 02:09:56.608 [info] VS Code was launched from an activated environment: '.venv', selecting it as the interpreter for workspace.
+2025-10-27 02:09:57.412 [error] [
+  'Failed to activate a workspace, Class name = g, completed in 3347ms, has a falsy return value, Arg 1: <Uri:/home/devm4n/Manav-Code/Quotify/frontend/src/components/Comments.jsx>, Arg 2: {"started":1761511175937}, Return Value: undefined',
+  [Error: Extension 'KylinIDETeam.python' CANNOT use API proposal: testObserver.
+  Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+   The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api KylinIDETeam.python
+  	at T (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:33264)
+  	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:201:107449)
+  	at T.activate (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:846553)
+  	at /home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:2460
+  	at Array.map (<anonymous>)
+  	at g.activateWorkspace (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:2450)]
+]
+2025-10-27 02:09:57.438 [error] Failure during activation. [Error: Extension 'KylinIDETeam.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api KylinIDETeam.python
+	at T (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:33264)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:201:107449)
+	at T.activate (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:846553)
+	at /home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:2460
+	at Array.map (<anonymous>)
+	at g.activateWorkspace (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:2450)]
+2025-10-27 02:09:57.443 [error] sendStartupTelemetry() failed. [Error: Extension 'KylinIDETeam.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api KylinIDETeam.python
+	at T (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:33264)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:201:107449)
+	at T.activate (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:846553)
+	at /home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:2460
+	at Array.map (<anonymous>)
+	at g.activateWorkspace (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:2450)]
+2025-10-27 02:10:01.002 [info] > ./.venv/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/interpreterInfo.py
+2025-10-27 02:10:25.277 [info] Starting Jedi language server for Quotify.

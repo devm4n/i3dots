@@ -1,0 +1,545 @@
+2025-10-23 18:16:43.004 [info] Getting Manifest... ericsia.pythonsnippets3
+2025-10-23 18:16:45.878 [info] Installing extension: ericsia.pythonsnippets3 {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/devm4n/.vscode-oss/extensions/extensions.json","path":"/home/devm4n/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.105.0","date":"2025-10-09T19:24:35.992Z"}}
+2025-10-23 18:16:48.652 [info] Getting Manifest... ms-python.python
+2025-10-23 18:16:51.265 [info] Installing extension: ms-python.python {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/devm4n/.vscode-oss/extensions/extensions.json","path":"/home/devm4n/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.105.0","date":"2025-10-09T19:24:35.992Z"}}
+2025-10-23 18:16:52.061 [error] Error while getting the latest version for the extension ms-python.debugpy. SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open VSX Registry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+
+    <!-- Eclipse Cookie Consent -->
+    <link rel="stylesheet" type="text/css"
+        href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+    <script
+        src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js">
+    </script>
+    <style>
+        a.cc-btn.cc-allow {
+            background-color: #c160ef;
+        }
+        a.cc-btn.cc-allow:hover, a.cc-btn.cc-allow:focus {
+            background-color: #444;
+        }
+        .cc-revoke {
+            display: none !important;
+        }
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="main"></div>
+    <script src='/bundle.js' ></script>
+</body>
+
+</html>
+
+2025-10-23 18:16:52.069 [error] Error while getting the latest version for the extension ms-python.vscode-python-envs. SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open VSX Registry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+
+    <!-- Eclipse Cookie Consent -->
+    <link rel="stylesheet" type="text/css"
+        href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+    <script
+        src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js">
+    </script>
+    <style>
+        a.cc-btn.cc-allow {
+            background-color: #c160ef;
+        }
+        a.cc-btn.cc-allow:hover, a.cc-btn.cc-allow:focus {
+            background-color: #444;
+        }
+        .cc-revoke {
+            display: none !important;
+        }
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="main"></div>
+    <script src='/bundle.js' ></script>
+</body>
+
+</html>
+
+2025-10-23 18:16:52.466 [error] Error while getting the latest version for the extension ms-python.vscode-pylance. SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open VSX Registry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+
+    <!-- Eclipse Cookie Consent -->
+    <link rel="stylesheet" type="text/css"
+        href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+    <script
+        src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js">
+    </script>
+    <style>
+        a.cc-btn.cc-allow {
+            background-color: #c160ef;
+        }
+        a.cc-btn.cc-allow:hover, a.cc-btn.cc-allow:focus {
+            background-color: #444;
+        }
+        .cc-revoke {
+            display: none !important;
+        }
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="main"></div>
+    <script src='/bundle.js' ></script>
+</body>
+
+</html>
+
+2025-10-23 18:16:52.768 [info] Getting Manifest... ms-python.vscode-python-envs
+2025-10-23 18:16:53.014 [info] Extension signature verification result for ericsia.pythonsnippets3: Success. Executed: true. Duration: 1777ms.
+2025-10-23 18:16:53.146 [info] Extracted extension to file:///home/devm4n/.vscode-oss/extensions/ericsia.pythonsnippets3-3.3.18-universal: ericsia.pythonsnippets3
+2025-10-23 18:16:53.206 [info] Renamed to /home/devm4n/.vscode-oss/extensions/ericsia.pythonsnippets3-3.3.18-universal
+2025-10-23 18:16:53.299 [info] Getting Manifest... ms-python.debugpy
+2025-10-23 18:16:53.314 [info] Extension installed successfully: ericsia.pythonsnippets3 vscode-userdata:/home/devm4n/.vscode-oss/extensions/extensions.json
+2025-10-23 18:16:53.913 [info] Installing extension: ms-python.vscode-python-envs {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/devm4n/.vscode-oss/extensions/extensions.json","path":"/home/devm4n/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.105.0","date":"2025-10-09T19:24:35.992Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-10-23 18:16:53.914 [info] Installing extension: ms-python.debugpy {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/devm4n/.vscode-oss/extensions/extensions.json","path":"/home/devm4n/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.105.0","date":"2025-10-09T19:24:35.992Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-10-23 18:16:55.894 [info] Getting Manifest... ericsia.pythonsnippets3pro
+2025-10-23 18:16:57.039 [info] Installing extension: ericsia.pythonsnippets3pro {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/devm4n/.vscode-oss/extensions/extensions.json","path":"/home/devm4n/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.105.0","date":"2025-10-09T19:24:35.992Z"}}
+2025-10-23 18:17:00.911 [info] Extension signature verification result for ericsia.pythonsnippets3pro: Success. Executed: true. Duration: 1088ms.
+2025-10-23 18:17:01.015 [info] Extracted extension to file:///home/devm4n/.vscode-oss/extensions/ericsia.pythonsnippets3pro-3.3.2-universal: ericsia.pythonsnippets3pro
+2025-10-23 18:17:01.084 [info] Renamed to /home/devm4n/.vscode-oss/extensions/ericsia.pythonsnippets3pro-3.3.2-universal
+2025-10-23 18:17:01.161 [info] Extension installed successfully: ericsia.pythonsnippets3pro vscode-userdata:/home/devm4n/.vscode-oss/extensions/extensions.json
+2025-10-23 18:17:01.476 [info] Extension signature verification result for ms-python.python: Success. Executed: true. Duration: 2153ms.
+2025-10-23 18:17:04.225 [info] Extension signature verification result for ms-python.vscode-python-envs: Success. Executed: true. Duration: 679ms.
+2025-10-23 18:17:04.565 [info] Extracted extension to file:///home/devm4n/.vscode-oss/extensions/ms-python.vscode-python-envs-1.10.0-universal: ms-python.vscode-python-envs
+2025-10-23 18:17:04.643 [info] Renamed to /home/devm4n/.vscode-oss/extensions/ms-python.vscode-python-envs-1.10.0-universal
+2025-10-23 18:17:04.794 [info] Extension signature verification result for ms-python.debugpy: Success. Executed: true. Duration: 1041ms.
+2025-10-23 18:17:07.107 [info] Extracted extension to file:///home/devm4n/.vscode-oss/extensions/ms-python.debugpy-2025.14.1-linux-x64: ms-python.debugpy
+2025-10-23 18:17:07.242 [info] Renamed to /home/devm4n/.vscode-oss/extensions/ms-python.debugpy-2025.14.1-linux-x64
+2025-10-23 18:17:09.123 [info] Extracted extension to file:///home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal: ms-python.python
+2025-10-23 18:17:09.524 [info] Renamed to /home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal
+2025-10-23 18:17:09.628 [info] Extension installed successfully: ms-python.vscode-python-envs vscode-userdata:/home/devm4n/.vscode-oss/extensions/extensions.json
+2025-10-23 18:17:09.631 [info] Extension installed successfully: ms-python.debugpy vscode-userdata:/home/devm4n/.vscode-oss/extensions/extensions.json
+2025-10-23 18:17:09.634 [info] Extension installed successfully: ms-python.python vscode-userdata:/home/devm4n/.vscode-oss/extensions/extensions.json
+2025-10-23 18:17:47.115 [info] Getting Manifest... djls.django-language-server
+2025-10-23 18:17:47.763 [info] Installing extension: djls.django-language-server {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/devm4n/.vscode-oss/extensions/extensions.json","path":"/home/devm4n/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.105.0","date":"2025-10-09T19:24:35.992Z"}}
+2025-10-23 18:17:51.919 [info] Extension signature verification result for djls.django-language-server: Success. Executed: true. Duration: 1119ms.
+2025-10-23 18:17:51.955 [info] Extracted extension to file:///home/devm4n/.vscode-oss/extensions/djls.django-language-server-0.1.0-universal: djls.django-language-server
+2025-10-23 18:17:52.034 [info] Renamed to /home/devm4n/.vscode-oss/extensions/djls.django-language-server-0.1.0-universal
+2025-10-23 18:17:52.119 [info] Extension installed successfully: djls.django-language-server vscode-userdata:/home/devm4n/.vscode-oss/extensions/extensions.json
+2025-10-23 18:17:52.598 [info] Getting Manifest... monosans.djlint
+2025-10-23 18:17:53.500 [info] Installing extension: monosans.djlint {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/devm4n/.vscode-oss/extensions/extensions.json","path":"/home/devm4n/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.105.0","date":"2025-10-09T19:24:35.992Z"}}
+2025-10-23 18:17:56.833 [info] Extension signature verification result for monosans.djlint: Success. Executed: true. Duration: 688ms.
+2025-10-23 18:17:56.883 [info] Extracted extension to file:///home/devm4n/.vscode-oss/extensions/monosans.djlint-2025.9.0-universal: monosans.djlint
+2025-10-23 18:17:56.955 [info] Renamed to /home/devm4n/.vscode-oss/extensions/monosans.djlint-2025.9.0-universal
+2025-10-23 18:17:57.050 [info] Extension installed successfully: monosans.djlint vscode-userdata:/home/devm4n/.vscode-oss/extensions/extensions.json
+2025-10-23 18:18:03.584 [info] Getting Manifest... donjayamanne.python-extension-pack
+2025-10-23 18:18:04.245 [info] Installing extension: donjayamanne.python-extension-pack {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/devm4n/.vscode-oss/extensions/extensions.json","path":"/home/devm4n/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.105.0","date":"2025-10-09T19:24:35.992Z"}}
+2025-10-23 18:18:05.167 [error] Error while getting the latest version for the extension batisteo.vscode-django. SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open VSX Registry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+
+    <!-- Eclipse Cookie Consent -->
+    <link rel="stylesheet" type="text/css"
+        href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+    <script
+        src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js">
+    </script>
+    <style>
+        a.cc-btn.cc-allow {
+            background-color: #c160ef;
+        }
+        a.cc-btn.cc-allow:hover, a.cc-btn.cc-allow:focus {
+            background-color: #444;
+        }
+        .cc-revoke {
+            display: none !important;
+        }
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="main"></div>
+    <script src='/bundle.js' ></script>
+</body>
+
+</html>
+
+2025-10-23 18:18:05.169 [error] Error while getting the latest version for the extension njpwerner.autodocstring. SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open VSX Registry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+
+    <!-- Eclipse Cookie Consent -->
+    <link rel="stylesheet" type="text/css"
+        href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+    <script
+        src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js">
+    </script>
+    <style>
+        a.cc-btn.cc-allow {
+            background-color: #c160ef;
+        }
+        a.cc-btn.cc-allow:hover, a.cc-btn.cc-allow:focus {
+            background-color: #444;
+        }
+        .cc-revoke {
+            display: none !important;
+        }
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="main"></div>
+    <script src='/bundle.js' ></script>
+</body>
+
+</html>
+
+2025-10-23 18:18:06.190 [error] Error while getting the latest version for the extension KevinRose.vsc-python-indent. SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open VSX Registry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+
+    <!-- Eclipse Cookie Consent -->
+    <link rel="stylesheet" type="text/css"
+        href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+    <script
+        src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js">
+    </script>
+    <style>
+        a.cc-btn.cc-allow {
+            background-color: #c160ef;
+        }
+        a.cc-btn.cc-allow:hover, a.cc-btn.cc-allow:focus {
+            background-color: #444;
+        }
+        .cc-revoke {
+            display: none !important;
+        }
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="main"></div>
+    <script src='/bundle.js' ></script>
+</body>
+
+</html>
+
+2025-10-23 18:18:06.198 [error] Error while getting the latest version for the extension ms-python.python. SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open VSX Registry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+
+    <!-- Eclipse Cookie Consent -->
+    <link rel="stylesheet" type="text/css"
+        href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+    <script
+        src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js">
+    </script>
+    <style>
+        a.cc-btn.cc-allow {
+            background-color: #c160ef;
+        }
+        a.cc-btn.cc-allow:hover, a.cc-btn.cc-allow:focus {
+            background-color: #444;
+        }
+        .cc-revoke {
+            display: none !important;
+        }
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="main"></div>
+    <script src='/bundle.js' ></script>
+</body>
+
+</html>
+
+2025-10-23 18:18:06.699 [error] Error while getting the latest version for the extension donjayamanne.python-environment-manager. SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open VSX Registry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+
+    <!-- Eclipse Cookie Consent -->
+    <link rel="stylesheet" type="text/css"
+        href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+    <script
+        src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js">
+    </script>
+    <style>
+        a.cc-btn.cc-allow {
+            background-color: #c160ef;
+        }
+        a.cc-btn.cc-allow:hover, a.cc-btn.cc-allow:focus {
+            background-color: #444;
+        }
+        .cc-revoke {
+            display: none !important;
+        }
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="main"></div>
+    <script src='/bundle.js' ></script>
+</body>
+
+</html>
+
+2025-10-23 18:18:07.645 [error] Error while getting the latest version for the extension wholroyd.jinja. SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open VSX Registry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+
+    <!-- Eclipse Cookie Consent -->
+    <link rel="stylesheet" type="text/css"
+        href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+    <script
+        src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js">
+    </script>
+    <style>
+        a.cc-btn.cc-allow {
+            background-color: #c160ef;
+        }
+        a.cc-btn.cc-allow:hover, a.cc-btn.cc-allow:focus {
+            background-color: #444;
+        }
+        .cc-revoke {
+            display: none !important;
+        }
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="main"></div>
+    <script src='/bundle.js' ></script>
+</body>
+
+</html>
+
+2025-10-23 18:18:08.001 [info] Getting Manifest... kevinrose.vsc-python-indent
+2025-10-23 18:18:08.646 [info] Getting Manifest... ms-python.python
+2025-10-23 18:18:09.468 [info] Getting Manifest... wholroyd.jinja
+2025-10-23 18:18:10.080 [info] Getting Manifest... batisteo.vscode-django
+2025-10-23 18:18:10.692 [info] Getting Manifest... donjayamanne.python-environment-manager
+2025-10-23 18:18:11.319 [info] Getting Manifest... njpwerner.autodocstring
+2025-10-23 18:18:11.940 [info] Installing extension: kevinrose.vsc-python-indent {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/devm4n/.vscode-oss/extensions/extensions.json","path":"/home/devm4n/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.105.0","date":"2025-10-09T19:24:35.992Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-10-23 18:18:11.940 [info] Installing extension: wholroyd.jinja {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/devm4n/.vscode-oss/extensions/extensions.json","path":"/home/devm4n/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.105.0","date":"2025-10-09T19:24:35.992Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-10-23 18:18:11.941 [info] Installing extension: donjayamanne.python-environment-manager {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/devm4n/.vscode-oss/extensions/extensions.json","path":"/home/devm4n/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.105.0","date":"2025-10-09T19:24:35.992Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-10-23 18:18:11.942 [info] Installing extension: njpwerner.autodocstring {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/devm4n/.vscode-oss/extensions/extensions.json","path":"/home/devm4n/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.105.0","date":"2025-10-09T19:24:35.992Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-10-23 18:18:14.468 [info] Extension signature verification result for donjayamanne.python-extension-pack: Success. Executed: true. Duration: 1033ms.
+2025-10-23 18:18:14.540 [info] Extracted extension to file:///home/devm4n/.vscode-oss/extensions/donjayamanne.python-extension-pack-1.7.0-universal: donjayamanne.python-extension-pack
+2025-10-23 18:18:14.627 [info] Renamed to /home/devm4n/.vscode-oss/extensions/donjayamanne.python-extension-pack-1.7.0-universal
+2025-10-23 18:18:15.487 [info] Extension signature verification result for wholroyd.jinja: Success. Executed: true. Duration: 539ms.
+2025-10-23 18:18:15.531 [info] Extracted extension to file:///home/devm4n/.vscode-oss/extensions/wholroyd.jinja-0.0.8-universal: wholroyd.jinja
+2025-10-23 18:18:15.581 [info] Renamed to /home/devm4n/.vscode-oss/extensions/wholroyd.jinja-0.0.8-universal
+2025-10-23 18:18:15.976 [info] Extension signature verification result for njpwerner.autodocstring: Success. Executed: true. Duration: 1043ms.
+2025-10-23 18:18:16.184 [info] Extracted extension to file:///home/devm4n/.vscode-oss/extensions/njpwerner.autodocstring-0.6.1-universal: njpwerner.autodocstring
+2025-10-23 18:18:16.312 [info] Renamed to /home/devm4n/.vscode-oss/extensions/njpwerner.autodocstring-0.6.1-universal
+2025-10-23 18:18:16.871 [info] Extension signature verification result for kevinrose.vsc-python-indent: Success. Executed: true. Duration: 581ms.
+2025-10-23 18:18:17.190 [info] Extracted extension to file:///home/devm4n/.vscode-oss/extensions/kevinrose.vsc-python-indent-1.21.0-universal: kevinrose.vsc-python-indent
+2025-10-23 18:18:17.254 [info] Renamed to /home/devm4n/.vscode-oss/extensions/kevinrose.vsc-python-indent-1.21.0-universal
+2025-10-23 18:18:22.305 [info] Extension signature verification result for donjayamanne.python-environment-manager: Success. Executed: true. Duration: 698ms.
+2025-10-23 18:18:23.047 [info] Extracted extension to file:///home/devm4n/.vscode-oss/extensions/donjayamanne.python-environment-manager-1.2.7-universal: donjayamanne.python-environment-manager
+2025-10-23 18:18:23.208 [info] Renamed to /home/devm4n/.vscode-oss/extensions/donjayamanne.python-environment-manager-1.2.7-universal
+2025-10-23 18:18:23.322 [info] Extension installed successfully: donjayamanne.python-extension-pack vscode-userdata:/home/devm4n/.vscode-oss/extensions/extensions.json
+2025-10-23 18:18:23.324 [info] Extension installed successfully: wholroyd.jinja vscode-userdata:/home/devm4n/.vscode-oss/extensions/extensions.json
+2025-10-23 18:18:23.325 [info] Extension installed successfully: njpwerner.autodocstring vscode-userdata:/home/devm4n/.vscode-oss/extensions/extensions.json
+2025-10-23 18:18:23.327 [info] Extension installed successfully: kevinrose.vsc-python-indent vscode-userdata:/home/devm4n/.vscode-oss/extensions/extensions.json
+2025-10-23 18:18:23.327 [info] Extension installed successfully: donjayamanne.python-environment-manager vscode-userdata:/home/devm4n/.vscode-oss/extensions/extensions.json
+2025-10-23 19:10:23.917 [info] Getting Manifest... alexcvzz.vscode-sqlite
+2025-10-23 19:10:25.266 [info] Getting Manifest... yy0931.vscode-sqlite3-editor
+2025-10-23 19:10:25.736 [info] Installing extension: alexcvzz.vscode-sqlite {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/devm4n/.vscode-oss/extensions/extensions.json","path":"/home/devm4n/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.105.0","date":"2025-10-09T19:24:35.992Z"}}
+2025-10-23 19:10:26.223 [info] Installing extension: yy0931.vscode-sqlite3-editor {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/devm4n/.vscode-oss/extensions/extensions.json","path":"/home/devm4n/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.105.0","date":"2025-10-09T19:24:35.992Z"}}
+2025-10-23 19:10:43.249 [info] Extension signature verification result for alexcvzz.vscode-sqlite: Success. Executed: true. Duration: 1710ms.
+2025-10-23 19:10:43.635 [info] Extracted extension to file:///home/devm4n/.vscode-oss/extensions/alexcvzz.vscode-sqlite-0.14.1-universal: alexcvzz.vscode-sqlite
+2025-10-23 19:10:43.707 [info] Renamed to /home/devm4n/.vscode-oss/extensions/alexcvzz.vscode-sqlite-0.14.1-universal
+2025-10-23 19:10:43.804 [info] Extension installed successfully: alexcvzz.vscode-sqlite vscode-userdata:/home/devm4n/.vscode-oss/extensions/extensions.json
+2025-10-23 19:13:53.663 [info] Extension signature verification result for yy0931.vscode-sqlite3-editor: Success. Executed: true. Duration: 1960ms.
+2025-10-23 19:13:56.669 [info] Extracted extension to file:///home/devm4n/.vscode-oss/extensions/yy0931.vscode-sqlite3-editor-1.0.208-universal: yy0931.vscode-sqlite3-editor
+2025-10-23 19:13:56.769 [info] Renamed to /home/devm4n/.vscode-oss/extensions/yy0931.vscode-sqlite3-editor-1.0.208-universal
+2025-10-23 19:13:56.975 [info] Extension installed successfully: yy0931.vscode-sqlite3-editor vscode-userdata:/home/devm4n/.vscode-oss/extensions/extensions.json

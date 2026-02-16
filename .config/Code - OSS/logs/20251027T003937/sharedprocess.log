@@ -1,0 +1,66 @@
+2025-10-27 00:40:02.667 [info] Getting Manifest... mikoz.black-py
+2025-10-27 00:40:02.675 [info] Getting Manifest... yy0931.vscode-sqlite3-editor
+2025-10-27 00:40:04.483 [info] Installing extension: mikoz.black-py {"productVersion":{"version":"1.105.0","date":"2025-10-09T19:24:35.992Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/devm4n/.vscode-oss/extensions/extensions.json","path":"/home/devm4n/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"}}
+2025-10-27 00:40:04.905 [info] Installing extension: yy0931.vscode-sqlite3-editor {"productVersion":{"version":"1.105.0","date":"2025-10-09T19:24:35.992Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/devm4n/.vscode-oss/extensions/extensions.json","path":"/home/devm4n/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"}}
+2025-10-27 00:40:05.493 [error] Error while getting the latest version for the extension ms-python.python. SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open VSX Registry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+
+    <!-- Eclipse Cookie Consent -->
+    <link rel="stylesheet" type="text/css"
+        href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+    <script
+        src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js">
+    </script>
+    <style>
+        a.cc-btn.cc-allow {
+            background-color: #c160ef;
+        }
+        a.cc-btn.cc-allow:hover, a.cc-btn.cc-allow:focus {
+            background-color: #444;
+        }
+        .cc-revoke {
+            display: none !important;
+        }
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="main"></div>
+    <script src='/bundle.js' ></script>
+</body>
+
+</html>
+
+2025-10-27 00:40:05.782 [info] Getting Manifest... ms-python.python
+2025-10-27 00:40:13.400 [info] Extension signature verification result for mikoz.black-py: Success. Executed: true. Duration: 1543ms.
+2025-10-27 00:40:13.600 [info] Extracted extension to file:///home/devm4n/.vscode-oss/extensions/mikoz.black-py-1.0.4-universal: mikoz.black-py
+2025-10-27 00:40:13.685 [info] Renamed to /home/devm4n/.vscode-oss/extensions/mikoz.black-py-1.0.4-universal
+2025-10-27 00:40:13.813 [info] Marked extension as removed mikoz.black-py-1.0.3-universal
+2025-10-27 00:40:13.841 [info] Extension installed successfully: mikoz.black-py vscode-userdata:/home/devm4n/.vscode-oss/extensions/extensions.json
+2025-10-27 00:41:21.918 [info] Extension signature verification result for yy0931.vscode-sqlite3-editor: Success. Executed: true. Duration: 1558ms.
+2025-10-27 00:41:25.506 [info] Extracted extension to file:///home/devm4n/.vscode-oss/extensions/yy0931.vscode-sqlite3-editor-1.0.210-universal: yy0931.vscode-sqlite3-editor
+2025-10-27 00:41:25.592 [info] Renamed to /home/devm4n/.vscode-oss/extensions/yy0931.vscode-sqlite3-editor-1.0.210-universal
+2025-10-27 00:41:25.702 [info] Marked extension as removed yy0931.vscode-sqlite3-editor-1.0.208-universal
+2025-10-27 00:41:25.732 [info] Extension installed successfully: yy0931.vscode-sqlite3-editor vscode-userdata:/home/devm4n/.vscode-oss/extensions/extensions.json

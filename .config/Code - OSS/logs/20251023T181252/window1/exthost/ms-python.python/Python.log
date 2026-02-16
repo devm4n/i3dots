@@ -1,0 +1,164 @@
+2025-10-23 18:17:12.525 [warning] Dir "/home/devm4n/Manav-Code/fullstack-projects/snipode/.pixi/envs" is not watchable (directory does not exist)
+2025-10-23 18:17:12.797 [error] Unable to check if shell integration is active [Error: Extension 'ms-python.python' CANNOT use API proposal: terminalDataWriteEvent.
+Its package.json#enabledApiProposals-property declares:  but NOT terminalDataWriteEvent.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at T (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:33264)
+	at a.onDidWriteTerminalData (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:201:114418)
+	at new m (/home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:914480)
+	at ge (/home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1735641)
+	at /home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739005
+	at /home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739033
+	at Se (/home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739100)
+	at /home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739580
+	at we (/home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739521)
+	at Pe (/home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739555)
+	at /home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1736794
+	at /home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1738399
+	at Array.reduce (<anonymous>)
+	at /home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1738371
+	at /home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1738653
+	at /home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739033
+	at Se (/home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739100)
+	at /home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739580
+	at we (/home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739521)
+	at Pe (/home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739555)
+	at /home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1736794
+	at /home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1766464
+	at /home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1766485
+	at e._get (/home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1765498)
+	at e._getButThrowIfAsync (/home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1765558)
+	at e.get (/home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1761267)
+	at e.dynamicValue (/home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1751000)
+	at /home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1737177
+	at Ee (/home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1737433)
+	at Se (/home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739149)
+	at /home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739580
+	at we (/home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739521)
+	at Pe (/home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739555)
+	at /home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1736794
+	at /home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1736728
+	at Array.map (<anonymous>)
+	at /home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1736699
+	at /home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1738399
+	at Array.reduce (<anonymous>)
+	at /home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1738371
+	at /home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1738653
+	at /home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739033
+	at Se (/home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739100)
+	at /home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739580
+	at we (/home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739521)
+	at Pe (/home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739555)
+	at /home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1736794
+	at /home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1766464
+	at /home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1766485
+	at e._get (/home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1765498)
+	at e._getButThrowIfAsync (/home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1765558)
+	at e.get (/home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1761267)
+	at a.get (/home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:568835)
+	at /home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:478570
+	at async t.activateComponents (/home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:476850)
+	at async /home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:2701666
+	at async e (/home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:2701198)
+	at async Gb.n (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:13382)
+	at async Gb.m (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:13345)
+	at async Gb.l (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:12801)]
+2025-10-23 18:17:12.848 [info] Starting Environment refresh
+2025-10-23 18:17:12.849 [info] Searching for interpreters in posix paths locator
+2025-10-23 18:17:12.884 [info] Searching for pyenv environments
+2025-10-23 18:17:12.884 [info] Searching for conda environments
+2025-10-23 18:17:12.886 [info] Searching for global virtual environments
+2025-10-23 18:17:12.886 [info] Searching for custom virtual environments
+2025-10-23 18:17:12.903 [info] pyenv is not installed
+2025-10-23 18:17:12.903 [info] Finished searching for pyenv environments: 51 milliseconds
+2025-10-23 18:17:12.904 [info] Finished searching for custom virtual envs: 49 milliseconds
+2025-10-23 18:17:12.922 [info] > conda info --json
+2025-10-23 18:17:12.964 [info] > hatch env show --json
+2025-10-23 18:17:12.964 [info] cwd: .
+2025-10-23 18:17:12.983 [info] VS Code was launched from an activated environment: '.venv', selecting it as the interpreter for workspace.
+2025-10-23 18:17:13.050 [info] > pyenv which python
+2025-10-23 18:17:13.050 [info] cwd: .
+2025-10-23 18:17:13.050 [info] Finished searching for global virtual envs: 195 milliseconds
+2025-10-23 18:17:13.373 [info] Active interpreter [/home/devm4n/Manav-Code/fullstack-projects/snipode]:  /home/devm4n/Manav-Code/fullstack-projects/snipode/.venv/bin/python
+2025-10-23 18:17:13.387 [info] Found: /bin/python --> /bin/python3.13
+2025-10-23 18:17:13.400 [info] Found: /bin/python3 --> /bin/python3.13
+2025-10-23 18:17:13.405 [info] Found: /bin/python3.13 --> /bin/python3.13
+2025-10-23 18:17:13.445 [info] > ./.venv/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/interpreterInfo.py
+2025-10-23 18:17:13.578 [info] Found: /sbin/python --> /sbin/python3.13
+2025-10-23 18:17:13.580 [info] Found: /sbin/python3 --> /sbin/python3.13
+2025-10-23 18:17:13.582 [info] Found: /sbin/python3.13 --> /sbin/python3.13
+2025-10-23 18:17:13.592 [info] Found: /usr/bin/python --> /usr/bin/python3.13
+2025-10-23 18:17:13.593 [info] Found: /usr/bin/python3 --> /usr/bin/python3.13
+2025-10-23 18:17:13.593 [info] Found: /usr/bin/python3.13 --> /usr/bin/python3.13
+2025-10-23 18:17:13.688 [info] Python interpreter path: ./.venv/bin/python
+2025-10-23 18:17:13.932 [info] Found: /usr/sbin/python --> /usr/sbin/python3.13
+2025-10-23 18:17:13.932 [info] Found: /usr/sbin/python3 --> /usr/sbin/python3.13
+2025-10-23 18:17:13.933 [info] Found: /usr/sbin/python3.13 --> /usr/sbin/python3.13
+2025-10-23 18:17:13.935 [info] Found: /home/devm4n/Manav-Code/fullstack-projects/snipode/.venv/bin/python --> /usr/sbin/python3.13
+2025-10-23 18:17:13.936 [info] Found: /home/devm4n/Manav-Code/fullstack-projects/snipode/.venv/bin/python3 --> /usr/sbin/python3.13
+2025-10-23 18:17:13.937 [info] Found: /home/devm4n/Manav-Code/fullstack-projects/snipode/.venv/bin/python3.13 --> /usr/sbin/python3.13
+2025-10-23 18:17:13.961 [info] > /bin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/interpreterInfo.py
+2025-10-23 18:17:13.987 [info] > /sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/interpreterInfo.py
+2025-10-23 18:17:14.015 [info] Finished searching for interpreters in posix paths locator: 1170 milliseconds
+2025-10-23 18:17:14.025 [info] Environments refresh paths discovered (event): 1183 milliseconds
+2025-10-23 18:17:14.025 [info] Environments refresh paths discovered: 1183 milliseconds
+2025-10-23 18:17:14.116 [info] > /usr/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/interpreterInfo.py
+2025-10-23 18:17:14.152 [info] > /usr/sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/interpreterInfo.py
+2025-10-23 18:17:14.286 [info] Environments refresh finished (event): 1444 milliseconds
+2025-10-23 18:17:14.305 [info] Environment refresh took 1464 milliseconds
+2025-10-23 18:17:14.322 [error] [
+  'Failed to activate a workspace, Class name = v, completed in 1484ms, has a falsy return value, Arg 1: <Uri:/home/devm4n/Manav-Code/fullstack-projects/snipode/backend/snippet/models.py>, Arg 2: {"started":1761223632439}, Return Value: undefined',
+  [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+  Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+   The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+  	at T (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:33264)
+  	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:201:107449)
+  	at x.activate (/home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:946549)
+  	at /home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:2457
+  	at Array.map (<anonymous>)
+  	at v.activateWorkspace (/home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:2447)]
+]
+2025-10-23 18:17:14.328 [error] Failure during activation. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at T (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:33264)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:201:107449)
+	at x.activate (/home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:946549)
+	at /home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:2457
+	at Array.map (<anonymous>)
+	at v.activateWorkspace (/home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:2447)]
+2025-10-23 18:17:14.328 [error] sendStartupTelemetry() failed. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at T (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:33264)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:201:107449)
+	at x.activate (/home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:946549)
+	at /home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:2457
+	at Array.map (<anonymous>)
+	at v.activateWorkspace (/home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:2447)]
+2025-10-23 18:17:17.873 [info] Starting Jedi language server for snipode.
+2025-10-23 18:19:36.216 [info] Discover tests for workspace name: snipode - uri: /home/devm4n/Manav-Code/fullstack-projects/snipode/backend/snippet/models.py
+2025-10-23 18:23:38.465 [info] Discover tests for workspace name: snipode - uri: /home/devm4n/Manav-Code/fullstack-projects/snipode/backend/snippet/serializers.py
+2025-10-23 18:25:28.857 [info] Discover tests for workspace name: snipode - uri: /home/devm4n/Manav-Code/fullstack-projects/snipode/backend/snippet/serializers.py
+2025-10-23 18:29:16.401 [info] Discover tests for workspace name: snipode - uri: /home/devm4n/Manav-Code/fullstack-projects/snipode/backend/snippet/views.py
+2025-10-23 18:32:50.659 [info] Discover tests for workspace name: snipode - uri: /home/devm4n/Manav-Code/fullstack-projects/snipode/backend/backend/urls.py
+2025-10-23 18:33:07.216 [info] Discover tests for workspace name: snipode - uri: /home/devm4n/Manav-Code/fullstack-projects/snipode/backend/snippet/urls.py
+2025-10-23 18:33:09.174 [info] Discover tests for workspace name: snipode - uri: /home/devm4n/Manav-Code/fullstack-projects/snipode/backend/backend/urls.py
+2025-10-23 18:34:10.418 [info] Discover tests for workspace name: snipode - uri: /home/devm4n/Manav-Code/fullstack-projects/snipode/backend/snippet/views.py
+2025-10-23 18:34:33.355 [info] Discover tests for workspace name: snipode - uri: /home/devm4n/Manav-Code/fullstack-projects/snipode/backend/snippet/views.py
+2025-10-23 18:34:47.981 [info] Discover tests for workspace name: snipode - uri: /home/devm4n/Manav-Code/fullstack-projects/snipode/backend/snippet/views.py
+2025-10-23 18:39:30.840 [info] Discover tests for workspace name: snipode - uri: /home/devm4n/Manav-Code/fullstack-projects/snipode/backend/snippet/views.py
+2025-10-23 18:40:33.287 [info] Discover tests for workspace name: snipode - uri: /home/devm4n/Manav-Code/fullstack-projects/snipode/backend/snippet/models.py
+2025-10-23 18:43:49.678 [info] Discover tests for workspace name: snipode - uri: /home/devm4n/Manav-Code/fullstack-projects/snipode/backend/snippet/admin.py
+2025-10-23 18:50:40.792 [info] Discover tests for workspace name: snipode - uri: /home/devm4n/Manav-Code/fullstack-projects/snipode/backend/snippet/views.py
+2025-10-23 18:52:39.210 [info] Discover tests for workspace name: snipode - uri: /home/devm4n/Manav-Code/fullstack-projects/snipode/backend/snippet/views.py
+2025-10-23 18:53:00.831 [info] Discover tests for workspace name: snipode - uri: /home/devm4n/Manav-Code/fullstack-projects/snipode/backend/snippet/views.py
+2025-10-23 18:53:18.615 [info] Discover tests for workspace name: snipode - uri: /home/devm4n/Manav-Code/fullstack-projects/snipode/backend/snippet/serializers.py
+2025-10-23 18:53:32.221 [info] Discover tests for workspace name: snipode - uri: /home/devm4n/Manav-Code/fullstack-projects/snipode/backend/snippet/views.py
+2025-10-23 18:56:08.818 [info] Discover tests for workspace name: snipode - uri: /home/devm4n/Manav-Code/fullstack-projects/snipode/backend/snippet/models.py
+2025-10-23 18:57:36.666 [info] Discover tests for workspace name: snipode - uri: /home/devm4n/Manav-Code/fullstack-projects/snipode/backend/snippet/models.py
+2025-10-23 19:11:42.194 [info] Discover tests for workspace name: snipode - uri: /home/devm4n/Manav-Code/fullstack-projects/snipode/backend/snippet/views.py
+2025-10-23 19:12:37.091 [info] Discover tests for workspace name: undefined - uri: /home/devm4n/.config/Code - OSS/User/settings.json
+2025-10-23 19:13:51.576 [info] Discover tests for workspace name: snipode - uri: /home/devm4n/Manav-Code/fullstack-projects/snipode/backend/snippet/views.py
+2025-10-23 19:15:32.592 [info] Discover tests for workspace name: snipode - uri: /home/devm4n/Manav-Code/fullstack-projects/snipode/backend/snippet/views.py
+2025-10-23 19:18:34.775 [info] Discover tests for workspace name: snipode - uri: /home/devm4n/Manav-Code/fullstack-projects/snipode/backend/snippet/models.py
+2025-10-23 19:19:22.542 [info] Discover tests for workspace name: snipode - uri: /home/devm4n/Manav-Code/fullstack-projects/snipode/backend/snippet/models.py

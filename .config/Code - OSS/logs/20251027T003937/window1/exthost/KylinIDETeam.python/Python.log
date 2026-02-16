@@ -1,0 +1,344 @@
+2025-10-27 00:39:56.825 [error] Unable to check if shell integration is active [Error: Extension 'KylinIDETeam.python' CANNOT use API proposal: terminalDataWriteEvent.
+Its package.json#enabledApiProposals-property declares:  but NOT terminalDataWriteEvent.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api KylinIDETeam.python
+	at T (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:33264)
+	at a.onDidWriteTerminalData (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:201:114418)
+	at new g (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:817988)
+	at t.resolveInstance (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:1882336)
+	at /home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:1884244
+	at Array.map (<anonymous>)
+	at t.resolveInstance (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:1882110)
+	at /home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:1884244
+	at Array.map (<anonymous>)
+	at t.resolveInstance (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:1882110)
+	at /home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:1884244
+	at /home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:1883192
+	at Array.map (<anonymous>)
+	at /home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:1883164
+	at Array.map (<anonymous>)
+	at t.resolveInstance (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:1882110)
+	at /home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:1884244
+	at t.resolve (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:1884507)
+	at /home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:1868070
+	at e._get (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:1867836)
+	at e.get (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:1866548)
+	at a.get (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:508216)
+	at /home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:422933
+	at async t.activateComponents (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:420850)
+	at async /home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:2640131
+	at async e (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:2639663)
+	at async Gb.n (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:13382)
+	at async Gb.m (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:13345)
+	at async Gb.l (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:12801)]
+2025-10-27 00:39:56.825 [info] Test server listening.
+2025-10-27 00:39:56.825 [info] > conda info --json
+2025-10-27 00:39:56.825 [warning] Dir "/home/devm4n/Manav-Code/Quotify/.pixi/envs" is not watchable (directory does not exist)
+2025-10-27 00:39:56.825 [error] extension activation failed [Error: command 'python.viewOutput' already exists
+	at iy.registerCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:40315)
+	at Object.registerCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:201:104312)
+	at s.registerCommand (/home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:129447)
+	at /home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:477886
+	at async t.activateComponents (/home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:476850)
+	at async /home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:2701666
+	at async e (/home/devm4n/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:2701198)
+	at async Gb.n (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:13382)
+	at async Gb.m (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:13345)
+	at async Gb.l (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:12801)]
+2025-10-27 00:39:56.825 [info] > pyenv which python
+2025-10-27 00:39:56.825 [info] cwd: .
+2025-10-27 00:39:56.940 [info] Found: /bin/python --> /bin/python3.13
+2025-10-27 00:39:57.025 [info] Found: /bin/python3 --> /bin/python3.13
+2025-10-27 00:39:57.054 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2025-10-27 00:39:57.054 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2025-10-27 00:39:57.054 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2025-10-27 00:39:57.054 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2025-10-27 00:39:57.054 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2025-10-27 00:39:57.054 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2025-10-27 00:39:57.054 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2025-10-27 00:39:57.058 [info] Found: /bin/python3.13 --> /bin/python3.13
+2025-10-27 00:39:57.911 [info] > ./.venv/bin/python -I ~/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/pythonFiles/interpreterInfo.py
+2025-10-27 00:39:57.916 [info] Found: /sbin/python --> /sbin/python3.13
+2025-10-27 00:40:00.291 [info] Found: /sbin/python3 --> /sbin/python3.13
+2025-10-27 00:40:00.298 [info] Found: /sbin/python3.13 --> /sbin/python3.13
+2025-10-27 00:40:00.437 [info] Found: /usr/bin/python --> /usr/bin/python3.13
+2025-10-27 00:40:00.541 [info] Found: /usr/bin/python3 --> /usr/bin/python3.13
+2025-10-27 00:40:00.586 [info] Found: /usr/bin/python3.13 --> /usr/bin/python3.13
+2025-10-27 00:40:01.032 [info] Found: /usr/sbin/python --> /usr/sbin/python3.13
+2025-10-27 00:40:01.033 [info] Found: /usr/sbin/python3 --> /usr/sbin/python3.13
+2025-10-27 00:40:01.033 [info] Found: /usr/sbin/python3.13 --> /usr/sbin/python3.13
+2025-10-27 00:40:01.058 [info] > /bin/python -I ~/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/pythonFiles/interpreterInfo.py
+2025-10-27 00:40:01.138 [info] > /sbin/python -I ~/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/pythonFiles/interpreterInfo.py
+2025-10-27 00:40:01.613 [info] > /usr/bin/python -I ~/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/pythonFiles/interpreterInfo.py
+2025-10-27 00:40:01.647 [info] > /usr/sbin/python -I ~/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/pythonFiles/interpreterInfo.py
+2025-10-27 00:40:02.000 [info] Python interpreter path: ./.venv/bin/python
+2025-10-27 00:40:02.055 [error] [
+  'Failed to activate a workspace, Class name = g, completed in 6035ms, has a falsy return value, Arg 1: <Uri:/home/devm4n/Manav-Code/Quotify>, Arg 2: {"started":1761505795419}, Return Value: undefined',
+  [Error: Extension 'KylinIDETeam.python' CANNOT use API proposal: testObserver.
+  Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+   The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api KylinIDETeam.python
+  	at T (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:33264)
+  	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:201:107449)
+  	at T.activate (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:846553)
+  	at /home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:2460
+  	at Array.map (<anonymous>)
+  	at g.activateWorkspace (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:2450)]
+]
+2025-10-27 00:40:02.055 [error] Failure during activation. [Error: Extension 'KylinIDETeam.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api KylinIDETeam.python
+	at T (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:33264)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:201:107449)
+	at T.activate (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:846553)
+	at /home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:2460
+	at Array.map (<anonymous>)
+	at g.activateWorkspace (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:2450)]
+2025-10-27 00:40:02.055 [error] sendStartupTelemetry() failed. [Error: Extension 'KylinIDETeam.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api KylinIDETeam.python
+	at T (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:33264)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:201:107449)
+	at T.activate (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:846553)
+	at /home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:2460
+	at Array.map (<anonymous>)
+	at g.activateWorkspace (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:2450)]
+2025-10-27 00:40:02.079 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2025-10-27 00:40:08.894 [info] Starting Jedi language server for Quotify.
+2025-10-27 00:40:17.891 [info] > ./.venv/bin/python ~/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/pythonFiles/linter.py -m pylint ./backend/backend/asgi.py
+2025-10-27 00:40:17.892 [info] cwd: .
+2025-10-27 00:40:18.545 [info] > ./.venv/bin/python -c "import pylint"
+2025-10-27 00:40:18.640 [info] > ./.venv/bin/python ~/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/pythonFiles/linter.py -m pylint ./backend/backend/settings.py
+2025-10-27 00:40:18.640 [info] cwd: .
+2025-10-27 00:40:18.811 [info] > ./.venv/bin/python -c "import pylint"
+2025-10-27 00:40:18.941 [info] > ./.venv/bin/python -c "import pylint"
+2025-10-27 00:40:19.016 [info] 
+Linter 'pylint' is not installed. Please install it or select another linter".
+Error: Module 'pylint' not installed.
+2025-10-27 00:40:19.017 [warning] Linter 'pylint' is not installed. Please install it or select another linter". [n [Error]: Module 'pylint' not installed.
+	at s.execForLinter (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:237014)
+	at async s.run (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:532074)
+	at async s.runLinter (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:554736)]
+2025-10-27 00:40:19.140 [info] > ./.venv/bin/python -c "import pylint"
+2025-10-27 00:40:19.247 [info] 
+Linter 'pylint' is not installed. Please install it or select another linter".
+Error: Module 'pylint' not installed.
+2025-10-27 00:40:19.252 [warning] Linter 'pylint' is not installed. Please install it or select another linter". [n [Error]: Module 'pylint' not installed.
+	at s.execForLinter (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:237014)
+	at async s.run (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:532074)
+	at async s.runLinter (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:554736)]
+2025-10-27 00:44:42.955 [info] > ./.venv/bin/python -c "import pip"
+2025-10-27 00:46:17.635 [info] > ./.venv/bin/python ~/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/pythonFiles/linter.py -m pylint ./backend/api/models.py
+2025-10-27 00:46:17.647 [info] cwd: .
+2025-10-27 00:46:18.655 [info] > ./.venv/bin/python -c "import pylint"
+2025-10-27 00:46:18.923 [info] > ./.venv/bin/python -c "import pylint"
+2025-10-27 00:46:19.017 [info] 
+Linter 'pylint' is not installed. Please install it or select another linter".
+Error: Module 'pylint' not installed.
+2025-10-27 00:46:19.017 [warning] Linter 'pylint' is not installed. Please install it or select another linter". [n [Error]: Module 'pylint' not installed.
+	at s.execForLinter (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:237014)
+	at async s.run (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:532074)
+	at async s.runLinter (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:554736)]
+2025-10-27 00:46:40.111 [info] > ./.venv/bin/python ~/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/pythonFiles/linter.py -m pylint ./backend/api/models.py
+2025-10-27 00:46:40.111 [info] cwd: .
+2025-10-27 00:46:40.270 [info] Discover tests for workspace name: Quotify - uri: /home/devm4n/Manav-Code/Quotify/backend/api/models.py
+2025-10-27 00:46:40.736 [info] > ./.venv/bin/python -c "import pylint"
+2025-10-27 00:46:41.029 [info] > ./.venv/bin/python -c "import pylint"
+2025-10-27 00:46:41.126 [info] 
+Linter 'pylint' is not installed. Please install it or select another linter".
+Error: Module 'pylint' not installed.
+2025-10-27 00:46:41.126 [warning] Linter 'pylint' is not installed. Please install it or select another linter". [n [Error]: Module 'pylint' not installed.
+	at s.execForLinter (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:237014)
+	at async s.run (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:532074)
+	at async s.runLinter (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:554736)]
+2025-10-27 00:56:07.739 [info] > ./.venv/bin/python ~/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/pythonFiles/linter.py -m pylint ./backend/backend/urls.py
+2025-10-27 00:56:07.793 [info] cwd: .
+2025-10-27 00:56:08.768 [info] > ./.venv/bin/python -c "import pylint"
+2025-10-27 00:56:09.027 [info] > ./.venv/bin/python -c "import pylint"
+2025-10-27 00:56:09.118 [info] 
+Linter 'pylint' is not installed. Please install it or select another linter".
+Error: Module 'pylint' not installed.
+2025-10-27 00:56:09.118 [warning] Linter 'pylint' is not installed. Please install it or select another linter". [n [Error]: Module 'pylint' not installed.
+	at s.execForLinter (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:237014)
+	at async s.run (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:532074)
+	at async s.runLinter (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:554736)]
+2025-10-27 00:56:24.026 [info] > ./.venv/bin/python ~/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/pythonFiles/linter.py -m pylint ./backend/api/views.py
+2025-10-27 00:56:24.026 [info] cwd: .
+2025-10-27 00:56:24.264 [info] > ./.venv/bin/python -c "import pylint"
+2025-10-27 00:56:24.369 [info] > ./.venv/bin/python -c "import pylint"
+2025-10-27 00:56:24.467 [info] 
+Linter 'pylint' is not installed. Please install it or select another linter".
+Error: Module 'pylint' not installed.
+2025-10-27 00:56:24.467 [warning] Linter 'pylint' is not installed. Please install it or select another linter". [n [Error]: Module 'pylint' not installed.
+	at s.execForLinter (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:237014)
+	at async s.run (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:532074)
+	at async s.runLinter (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:554736)]
+2025-10-27 00:57:08.951 [info] > ./.venv/bin/python ~/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/pythonFiles/linter.py -m pylint ./backend/backend/settings.py
+2025-10-27 00:57:08.951 [info] cwd: .
+2025-10-27 00:57:09.231 [info] > ./.venv/bin/python -c "import pylint"
+2025-10-27 00:57:09.351 [info] > ./.venv/bin/python -c "import pylint"
+2025-10-27 00:57:09.448 [info] 
+Linter 'pylint' is not installed. Please install it or select another linter".
+Error: Module 'pylint' not installed.
+2025-10-27 00:57:09.448 [warning] Linter 'pylint' is not installed. Please install it or select another linter". [n [Error]: Module 'pylint' not installed.
+	at s.execForLinter (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:237014)
+	at async s.run (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:532074)
+	at async s.runLinter (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:554736)]
+2025-10-27 00:58:09.522 [info] > ./.venv/bin/python ~/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/pythonFiles/linter.py -m pylint ./backend/api/serializers.py
+2025-10-27 00:58:09.544 [info] cwd: .
+2025-10-27 00:58:09.859 [info] > ./.venv/bin/python -c "import pylint"
+2025-10-27 00:58:09.966 [info] > ./.venv/bin/python -c "import pylint"
+2025-10-27 00:58:10.060 [info] 
+Linter 'pylint' is not installed. Please install it or select another linter".
+Error: Module 'pylint' not installed.
+2025-10-27 00:58:10.060 [warning] Linter 'pylint' is not installed. Please install it or select another linter". [n [Error]: Module 'pylint' not installed.
+	at s.execForLinter (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:237014)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async s.run (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:532074)
+	at async s.runLinter (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:554736)]
+2025-10-27 01:00:26.324 [info] > ./.venv/bin/python ~/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/pythonFiles/linter.py -m pylint ./backend/api/views.py
+2025-10-27 01:00:26.324 [info] cwd: .
+2025-10-27 01:00:26.460 [info] > ./.venv/bin/python -c "import pylint"
+2025-10-27 01:00:26.529 [info] Discover tests for workspace name: Quotify - uri: /home/devm4n/Manav-Code/Quotify/backend/api/views.py
+2025-10-27 01:00:26.568 [info] > ./.venv/bin/python -c "import pylint"
+2025-10-27 01:00:26.668 [info] 
+Linter 'pylint' is not installed. Please install it or select another linter".
+Error: Module 'pylint' not installed.
+2025-10-27 01:00:26.668 [warning] Linter 'pylint' is not installed. Please install it or select another linter". [n [Error]: Module 'pylint' not installed.
+	at s.execForLinter (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:237014)
+	at async s.run (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:532074)
+	at async s.runLinter (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:554736)]
+2025-10-27 01:01:27.021 [info] > ./.venv/bin/python ~/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/pythonFiles/linter.py -m pylint ./backend/backend/urls.py
+2025-10-27 01:01:27.021 [info] cwd: .
+2025-10-27 01:01:27.157 [info] Discover tests for workspace name: Quotify - uri: /home/devm4n/Manav-Code/Quotify/backend/backend/urls.py
+2025-10-27 01:01:27.451 [info] > ./.venv/bin/python -c "import pylint"
+2025-10-27 01:01:27.560 [info] > ./.venv/bin/python -c "import pylint"
+2025-10-27 01:01:27.649 [info] 
+Linter 'pylint' is not installed. Please install it or select another linter".
+Error: Module 'pylint' not installed.
+2025-10-27 01:01:27.649 [warning] Linter 'pylint' is not installed. Please install it or select another linter". [n [Error]: Module 'pylint' not installed.
+	at s.execForLinter (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:237014)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async s.run (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:532074)
+	at async s.runLinter (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:554736)]
+2025-10-27 01:01:50.641 [info] > ./.venv/bin/python ~/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/pythonFiles/linter.py -m pylint ./backend/api/views.py
+2025-10-27 01:01:50.641 [info] cwd: .
+2025-10-27 01:01:50.805 [info] > ./.venv/bin/python -c "import pylint"
+2025-10-27 01:01:50.858 [info] Discover tests for workspace name: Quotify - uri: /home/devm4n/Manav-Code/Quotify/backend/api/views.py
+2025-10-27 01:01:51.013 [info] > ./.venv/bin/python -c "import pylint"
+2025-10-27 01:01:51.134 [info] 
+Linter 'pylint' is not installed. Please install it or select another linter".
+Error: Module 'pylint' not installed.
+2025-10-27 01:01:51.134 [warning] Linter 'pylint' is not installed. Please install it or select another linter". [n [Error]: Module 'pylint' not installed.
+	at s.execForLinter (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:237014)
+	at async s.run (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:532074)
+	at async s.runLinter (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:554736)]
+2025-10-27 01:02:02.739 [info] > ./.venv/bin/python ~/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/pythonFiles/linter.py -m pylint ./backend/api/views.py
+2025-10-27 01:02:02.739 [info] cwd: .
+2025-10-27 01:02:02.883 [info] > ./.venv/bin/python -c "import pylint"
+2025-10-27 01:02:02.957 [info] Discover tests for workspace name: Quotify - uri: /home/devm4n/Manav-Code/Quotify/backend/api/views.py
+2025-10-27 01:02:02.989 [info] > ./.venv/bin/python -c "import pylint"
+2025-10-27 01:02:03.090 [info] 
+Linter 'pylint' is not installed. Please install it or select another linter".
+Error: Module 'pylint' not installed.
+2025-10-27 01:02:03.090 [warning] Linter 'pylint' is not installed. Please install it or select another linter". [n [Error]: Module 'pylint' not installed.
+	at s.execForLinter (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:237014)
+	at async s.run (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:532074)
+	at async s.runLinter (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:554736)]
+2025-10-27 01:02:33.149 [info] > ./.venv/bin/python ~/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/pythonFiles/linter.py -m pylint ./backend/api/views.py
+2025-10-27 01:02:33.149 [info] cwd: .
+2025-10-27 01:02:33.287 [info] > ./.venv/bin/python -c "import pylint"
+2025-10-27 01:02:33.358 [info] Discover tests for workspace name: Quotify - uri: /home/devm4n/Manav-Code/Quotify/backend/api/views.py
+2025-10-27 01:02:33.400 [info] > ./.venv/bin/python -c "import pylint"
+2025-10-27 01:02:33.489 [info] 
+Linter 'pylint' is not installed. Please install it or select another linter".
+Error: Module 'pylint' not installed.
+2025-10-27 01:02:33.489 [warning] Linter 'pylint' is not installed. Please install it or select another linter". [n [Error]: Module 'pylint' not installed.
+	at s.execForLinter (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:237014)
+	at async s.run (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:532074)
+	at async s.runLinter (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:554736)]
+2025-10-27 01:03:17.607 [info] > ./.venv/bin/python ~/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/pythonFiles/linter.py -m pylint ./backend/backend/urls.py
+2025-10-27 01:03:17.607 [info] cwd: .
+2025-10-27 01:03:17.745 [info] > ./.venv/bin/python -c "import pylint"
+2025-10-27 01:03:17.810 [info] Discover tests for workspace name: Quotify - uri: /home/devm4n/Manav-Code/Quotify/backend/backend/urls.py
+2025-10-27 01:03:17.847 [info] > ./.venv/bin/python -c "import pylint"
+2025-10-27 01:03:17.935 [info] 
+Linter 'pylint' is not installed. Please install it or select another linter".
+Error: Module 'pylint' not installed.
+2025-10-27 01:03:17.935 [warning] Linter 'pylint' is not installed. Please install it or select another linter". [n [Error]: Module 'pylint' not installed.
+	at s.execForLinter (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:237014)
+	at async s.run (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:532074)
+	at async s.runLinter (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:554736)]
+2025-10-27 01:06:17.746 [info] > ./.venv/bin/python ~/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/pythonFiles/linter.py -m pylint ./backend/backend/settings.py
+2025-10-27 01:06:17.746 [info] cwd: .
+2025-10-27 01:06:17.909 [info] > ./.venv/bin/python -c "import pylint"
+2025-10-27 01:06:17.945 [info] Discover tests for workspace name: Quotify - uri: /home/devm4n/Manav-Code/Quotify/backend/backend/settings.py
+2025-10-27 01:06:18.090 [info] > ./.venv/bin/python -c "import pylint"
+2025-10-27 01:06:18.264 [info] 
+Linter 'pylint' is not installed. Please install it or select another linter".
+Error: Module 'pylint' not installed.
+2025-10-27 01:06:18.264 [warning] Linter 'pylint' is not installed. Please install it or select another linter". [n [Error]: Module 'pylint' not installed.
+	at s.execForLinter (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:237014)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async s.run (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:532074)
+	at async s.runLinter (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:554736)]
+2025-10-27 01:09:19.313 [info] > ./.venv/bin/python ~/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/pythonFiles/linter.py -m pylint ./backend/backend/urls.py
+2025-10-27 01:09:19.313 [info] cwd: .
+2025-10-27 01:09:19.449 [info] > ./.venv/bin/python -c "import pylint"
+2025-10-27 01:09:19.512 [info] Discover tests for workspace name: Quotify - uri: /home/devm4n/Manav-Code/Quotify/backend/backend/urls.py
+2025-10-27 01:09:19.563 [info] > ./.venv/bin/python -c "import pylint"
+2025-10-27 01:09:19.651 [info] 
+Linter 'pylint' is not installed. Please install it or select another linter".
+Error: Module 'pylint' not installed.
+2025-10-27 01:09:19.651 [warning] Linter 'pylint' is not installed. Please install it or select another linter". [n [Error]: Module 'pylint' not installed.
+	at s.execForLinter (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:237014)
+	at async s.run (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:532074)
+	at async s.runLinter (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:554736)]
+2025-10-27 01:09:56.622 [info] > ./.venv/bin/python ~/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/pythonFiles/linter.py -m pylint ./backend/api/views.py
+2025-10-27 01:09:56.622 [info] cwd: .
+2025-10-27 01:09:56.765 [info] > ./.venv/bin/python -c "import pylint"
+2025-10-27 01:09:56.820 [info] Discover tests for workspace name: Quotify - uri: /home/devm4n/Manav-Code/Quotify/backend/api/views.py
+2025-10-27 01:09:56.872 [info] > ./.venv/bin/python -c "import pylint"
+2025-10-27 01:09:56.959 [info] 
+Linter 'pylint' is not installed. Please install it or select another linter".
+Error: Module 'pylint' not installed.
+2025-10-27 01:09:56.959 [warning] Linter 'pylint' is not installed. Please install it or select another linter". [n [Error]: Module 'pylint' not installed.
+	at s.execForLinter (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:237014)
+	at async s.run (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:532074)
+	at async s.runLinter (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:554736)]
+2025-10-27 01:11:28.100 [info] Send text to terminal: source /home/devm4n/Manav-Code/Quotify/.venv/bin/activate.fish
+2025-10-27 01:14:16.975 [info] > ./.venv/bin/python ~/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/pythonFiles/linter.py -m pylint ./backend/api/views.py
+2025-10-27 01:14:16.991 [info] cwd: .
+2025-10-27 01:14:17.148 [info] Discover tests for workspace name: Quotify - uri: /home/devm4n/Manav-Code/Quotify/backend/api/views.py
+2025-10-27 01:14:17.696 [info] > ./.venv/bin/python -c "import pylint"
+2025-10-27 01:14:18.290 [info] > ./.venv/bin/python -c "import pylint"
+2025-10-27 01:14:18.399 [info] 
+Linter 'pylint' is not installed. Please install it or select another linter".
+Error: Module 'pylint' not installed.
+2025-10-27 01:14:18.399 [warning] Linter 'pylint' is not installed. Please install it or select another linter". [n [Error]: Module 'pylint' not installed.
+	at s.execForLinter (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:237014)
+	at async s.run (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:532074)
+	at async s.runLinter (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:554736)]
+2025-10-27 01:14:54.588 [info] > ./.venv/bin/python ~/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/pythonFiles/linter.py -m pylint ./backend/api/views.py
+2025-10-27 01:14:54.588 [info] cwd: .
+2025-10-27 01:14:54.765 [info] Discover tests for workspace name: Quotify - uri: /home/devm4n/Manav-Code/Quotify/backend/api/views.py
+2025-10-27 01:14:54.969 [info] > ./.venv/bin/python -c "import pylint"
+2025-10-27 01:14:55.157 [info] > ./.venv/bin/python -c "import pylint"
+2025-10-27 01:14:55.256 [info] 
+Linter 'pylint' is not installed. Please install it or select another linter".
+Error: Module 'pylint' not installed.
+2025-10-27 01:14:55.256 [warning] Linter 'pylint' is not installed. Please install it or select another linter". [n [Error]: Module 'pylint' not installed.
+	at s.execForLinter (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:237014)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async s.run (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:532074)
+	at async s.runLinter (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:554736)]
+2025-10-27 01:33:28.993 [info] > ./.venv/bin/python ~/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/pythonFiles/linter.py -m pylint ./backend/backend/urls.py
+2025-10-27 01:33:29.014 [info] cwd: .
+2025-10-27 01:33:29.184 [info] Discover tests for workspace name: Quotify - uri: /home/devm4n/Manav-Code/Quotify/backend/backend/urls.py
+2025-10-27 01:33:29.202 [info] > ./.venv/bin/python -c "import pylint"
+2025-10-27 01:33:29.333 [info] > ./.venv/bin/python -c "import pylint"
+2025-10-27 01:33:29.454 [info] 
+Linter 'pylint' is not installed. Please install it or select another linter".
+Error: Module 'pylint' not installed.
+2025-10-27 01:33:29.455 [warning] Linter 'pylint' is not installed. Please install it or select another linter". [n [Error]: Module 'pylint' not installed.
+	at s.execForLinter (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:237014)
+	at async s.run (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:532074)
+	at async s.runLinter (/home/devm4n/.vscode-oss/extensions/kylinideteam.python-0.3.5-universal/out/client/extension.js:2:554736)]

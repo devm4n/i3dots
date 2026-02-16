@@ -1,0 +1,64 @@
+2025-12-29 16:50:10.133 [warning] Creation of workbench contribution 'workbench.contrib.chatSetup' took 25ms.
+2025-12-29 16:50:11.862 [info] Started local extension host with pid 3499.
+2025-12-29 16:50:16.284 [error] Extension 'KylinIDETeam.python CANNOT USE these API proposals 'quickPickSortByLabel, testObserver'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-12-29 16:50:16.288 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes, debugVisualization, contribViewsWelcome'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-12-29 16:50:16.289 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-12-29 16:50:16.289 [error] Extension 'ms-python.vscode-python-envs CANNOT USE these API proposals 'terminalShellEnv, terminalDataWriteEvent'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-12-29 16:50:16.448 [info] [ms-python.python]: Command `python.createNewFile` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-12-29 16:50:16.450 [info] [ms-python.python]: Command `python.analysis.restartLanguageServer` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-12-29 16:50:16.452 [info] [ms-python.python]: Command `python.clearCacheAndReload` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-12-29 16:50:16.453 [info] [ms-python.python]: Command `python.clearWorkspaceInterpreter` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-12-29 16:50:16.454 [info] [ms-python.python]: Command `python.configureTests` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-12-29 16:50:16.455 [info] [ms-python.python]: Command `python.createTerminal` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-12-29 16:50:16.456 [info] [ms-python.python]: Command `python.createEnvironment` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-12-29 16:50:16.456 [info] [ms-python.python]: Command `python.createEnvironment-button` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-12-29 16:50:16.457 [info] [ms-python.python]: Command `python.execInTerminal` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-12-29 16:50:16.458 [info] [ms-python.python]: Command `python.execInTerminal-icon` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-12-29 16:50:16.459 [info] [ms-python.python]: Command `python.execInDedicatedTerminal` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-12-29 16:50:16.459 [info] [ms-python.python]: Command `python.execSelectionInDjangoShell` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-12-29 16:50:16.460 [info] [ms-python.python]: Command `python.execSelectionInTerminal` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-12-29 16:50:16.461 [info] [ms-python.python]: Command `python.reportIssue` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-12-29 16:50:16.462 [info] [ms-python.python]: Command `testing.reRunFailTests` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-12-29 16:50:16.463 [info] [ms-python.python]: Command `python.setInterpreter` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-12-29 16:50:16.464 [info] [ms-python.python]: Command `python.startREPL` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-12-29 16:50:16.465 [info] [ms-python.python]: Command `python.viewLanguageServerOutput` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-12-29 16:50:16.467 [info] [ms-python.python]: Command `python.viewOutput` already registered by Kylin Python(This version is deprecated) (KylinIDETeam.python)
+2025-12-29 16:50:16.467 [info] [ms-python.python]: The `python.run` submenu was already previously registered.
+2025-12-29 16:50:16.468 [info] [ms-python.python]: The `python.runFileInteractive` submenu was already previously registered.
+2025-12-29 16:50:16.469 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2025-12-29 16:50:16.470 [warning] [ms-python.python]: The `python.run` submenu was already contributed to the `editor/context` menu.
+2025-12-29 16:50:16.471 [warning] [ms-python.python]: Cannot register 'python.activeStateToolPath'. This property is already registered.
+2025-12-29 16:50:16.472 [warning] [ms-python.python]: Cannot register 'python.autoComplete.extraPaths'. This property is already registered.
+2025-12-29 16:50:16.475 [warning] [ms-python.python]: Cannot register 'python.createEnvironment.contentButton'. This property is already registered.
+2025-12-29 16:50:16.478 [warning] [ms-python.python]: Cannot register 'python.createEnvironment.trigger'. This property is already registered.
+2025-12-29 16:50:16.480 [warning] [ms-python.python]: Cannot register 'python.condaPath'. This property is already registered.
+2025-12-29 16:50:16.493 [warning] [ms-python.python]: Cannot register 'python.defaultInterpreterPath'. This property is already registered.
+2025-12-29 16:50:16.494 [warning] [ms-python.python]: Cannot register 'python.envFile'. This property is already registered.
+2025-12-29 16:50:16.497 [warning] [ms-python.python]: Cannot register 'python.experiments.enabled'. This property is already registered.
+2025-12-29 16:50:16.499 [warning] [ms-python.python]: Cannot register 'python.experiments.optInto'. This property is already registered.
+2025-12-29 16:50:16.500 [warning] [ms-python.python]: Cannot register 'python.experiments.optOutFrom'. This property is already registered.
+2025-12-29 16:50:16.501 [warning] [ms-python.python]: Cannot register 'python.globalModuleInstallation'. This property is already registered.
+2025-12-29 16:50:16.502 [warning] [ms-python.python]: Cannot register 'python.languageServer'. This property is already registered.
+2025-12-29 16:50:16.503 [warning] [ms-python.python]: Cannot register 'python.interpreter.infoVisibility'. This property is already registered.
+2025-12-29 16:50:16.503 [warning] [ms-python.python]: Cannot register 'python.logging.level'. This property is already registered.
+2025-12-29 16:50:16.504 [warning] [ms-python.python]: Cannot register 'python.missingPackage.severity'. This property is already registered.
+2025-12-29 16:50:16.505 [warning] [ms-python.python]: Cannot register 'python.pipenvPath'. This property is already registered.
+2025-12-29 16:50:16.506 [warning] [ms-python.python]: Cannot register 'python.poetryPath'. This property is already registered.
+2025-12-29 16:50:16.507 [warning] [ms-python.python]: Cannot register 'python.terminal.activateEnvInCurrentTerminal'. This property is already registered.
+2025-12-29 16:50:16.508 [warning] [ms-python.python]: Cannot register 'python.terminal.activateEnvironment'. This property is already registered.
+2025-12-29 16:50:16.509 [warning] [ms-python.python]: Cannot register 'python.terminal.executeInFileDir'. This property is already registered.
+2025-12-29 16:50:16.510 [warning] [ms-python.python]: Cannot register 'python.terminal.focusAfterLaunch'. This property is already registered.
+2025-12-29 16:50:16.511 [warning] [ms-python.python]: Cannot register 'python.terminal.launchArgs'. This property is already registered.
+2025-12-29 16:50:16.514 [warning] [ms-python.python]: Cannot register 'python.REPL.enableREPLSmartSend'. This property is already registered.
+2025-12-29 16:50:16.515 [warning] [ms-python.python]: Cannot register 'python.testing.autoTestDiscoverOnSaveEnabled'. This property is already registered.
+2025-12-29 16:50:16.516 [warning] [ms-python.python]: Cannot register 'python.testing.cwd'. This property is already registered.
+2025-12-29 16:50:16.517 [warning] [ms-python.python]: Cannot register 'python.testing.debugPort'. This property is already registered.
+2025-12-29 16:50:16.518 [warning] [ms-python.python]: Cannot register 'python.testing.promptToConfigure'. This property is already registered.
+2025-12-29 16:50:16.519 [warning] [ms-python.python]: Cannot register 'python.testing.pytestArgs'. This property is already registered.
+2025-12-29 16:50:16.519 [warning] [ms-python.python]: Cannot register 'python.testing.pytestEnabled'. This property is already registered.
+2025-12-29 16:50:16.521 [warning] [ms-python.python]: Cannot register 'python.testing.pytestPath'. This property is already registered.
+2025-12-29 16:50:16.522 [warning] [ms-python.python]: Cannot register 'python.testing.unittestArgs'. This property is already registered.
+2025-12-29 16:50:16.523 [warning] [ms-python.python]: Cannot register 'python.testing.unittestEnabled'. This property is already registered.
+2025-12-29 16:50:16.524 [warning] [ms-python.python]: Cannot register 'python.venvFolders'. This property is already registered.
+2025-12-29 16:50:16.525 [warning] [ms-python.python]: Cannot register 'python.venvPath'. This property is already registered.
+2025-12-29 16:50:22.206 [info] [perf] Render performance baseline is -1ms

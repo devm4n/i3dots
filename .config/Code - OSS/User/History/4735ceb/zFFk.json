@@ -1,0 +1,17 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.fontFamily": "Fira Code",
+    "workbench.settings.applyToAllProfiles": [
+        "editor.fontFamily"
+    ],
+    "workbench.colorTheme": "Wal",
+    "editor.fontSize": 12,
+    "editor.codeLensFontFamily": "Fira Code",
+    "terminal.integrated.fontFamily": "Fira Code",
+    "editor.mouseWheelZoom": true,
+    "workbench.editor.editorActionsLocation": "hidden",
+    "window.menuBarVisibility": "compact",
+    "workbench.navigationControl.enabled": false,
+    "workbench.layoutControl.enabled": false,
+    "editor.minimap.enabled": false
+}

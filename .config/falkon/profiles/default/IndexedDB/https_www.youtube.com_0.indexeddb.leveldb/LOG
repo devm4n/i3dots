@@ -1,0 +1,12 @@
+2025/12/28-19:38:04.895 3f4 Reusing MANIFEST /home/devm4n/.config/falkon/profiles/default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/12/28-19:38:04.903 3f4 Recovering log #25
+2025/12/28-19:38:05.048 3f4 Reusing old log /home/devm4n/.config/falkon/profiles/default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000025.log 
+2025/12/28-20:15:41.088 3fb Level-0 table #30: started
+2025/12/28-20:15:41.453 3fb Level-0 table #30: 1797563 bytes OK
+2025/12/28-20:15:41.511 3fb Delete type=0 #25
+2025/12/28-20:22:28.871 3fb Compacting 1@1 + 1@2 files
+2025/12/28-20:22:28.989 3fb Generated table #31@1: 475 keys, 57822 bytes
+2025/12/28-20:22:28.989 3fb Compacted 1@1 + 1@2 files => 57822 bytes
+2025/12/28-20:22:29.018 3fb compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/28-20:22:29.020 3fb Delete type=2 #30
+2025/12/28-20:22:29.020 3fb Delete type=2 #27

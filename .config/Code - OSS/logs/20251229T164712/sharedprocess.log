@@ -1,0 +1,28 @@
+2025-12-29 16:47:35.557 [info] Getting Manifest... monosans.djlint
+2025-12-29 16:47:35.562 [info] Getting Manifest... ms-python.python
+2025-12-29 16:47:35.568 [info] Getting Manifest... ms-python.vscode-python-envs
+2025-12-29 16:47:35.572 [info] Getting Manifest... yy0931.vscode-sqlite3-editor
+2025-12-29 16:47:36.541 [info] Installing extension: ms-python.vscode-python-envs {"productVersion":{"version":"1.107.0","date":"2025-12-12T19:06:53.864Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/devm4n/.vscode-oss/extensions/extensions.json","path":"/home/devm4n/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"}}
+2025-12-29 16:47:36.550 [info] Installing extension: monosans.djlint {"productVersion":{"version":"1.107.0","date":"2025-12-12T19:06:53.864Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/devm4n/.vscode-oss/extensions/extensions.json","path":"/home/devm4n/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"}}
+2025-12-29 16:47:36.558 [info] Installing extension: ms-python.python {"productVersion":{"version":"1.107.0","date":"2025-12-12T19:06:53.864Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/devm4n/.vscode-oss/extensions/extensions.json","path":"/home/devm4n/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"}}
+2025-12-29 16:47:36.574 [info] Installing extension: yy0931.vscode-sqlite3-editor {"productVersion":{"version":"1.107.0","date":"2025-12-12T19:06:53.864Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/devm4n/.vscode-oss/extensions/extensions.json","path":"/home/devm4n/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"}}
+2025-12-29 16:47:44.641 [info] Extension signature verification result for monosans.djlint: Success. Executed: true. Duration: 2722ms.
+2025-12-29 16:47:44.659 [info] Extension signature verification result for ms-python.vscode-python-envs: Success. Executed: true. Duration: 2742ms.
+2025-12-29 16:47:44.753 [info] Extracted extension to file:///home/devm4n/.vscode-oss/extensions/monosans.djlint-2025.11.0-universal: monosans.djlint
+2025-12-29 16:47:44.829 [info] Renamed to /home/devm4n/.vscode-oss/extensions/monosans.djlint-2025.11.0-universal
+2025-12-29 16:47:45.034 [info] Marked extension as removed monosans.djlint-2025.9.0-universal
+2025-12-29 16:47:45.088 [info] Extension installed successfully: monosans.djlint vscode-userdata:/home/devm4n/.vscode-oss/extensions/extensions.json
+2025-12-29 16:47:45.188 [info] Extension signature verification result for ms-python.python: Success. Executed: true. Duration: 2234ms.
+2025-12-29 16:47:45.309 [info] Extracted extension to file:///home/devm4n/.vscode-oss/extensions/ms-python.vscode-python-envs-1.14.0-universal: ms-python.vscode-python-envs
+2025-12-29 16:47:45.376 [info] Renamed to /home/devm4n/.vscode-oss/extensions/ms-python.vscode-python-envs-1.14.0-universal
+2025-12-29 16:47:45.612 [info] Extension signature verification result for yy0931.vscode-sqlite3-editor: Success. Executed: true. Duration: 1497ms.
+2025-12-29 16:47:45.677 [info] Extension installed successfully: ms-python.vscode-python-envs vscode-userdata:/home/devm4n/.vscode-oss/extensions/extensions.json
+2025-12-29 16:47:45.681 [info] Marked extension as removed ms-python.vscode-python-envs-1.10.0-universal
+2025-12-29 16:47:49.378 [info] Extracted extension to file:///home/devm4n/.vscode-oss/extensions/yy0931.vscode-sqlite3-editor-1.0.211-universal: yy0931.vscode-sqlite3-editor
+2025-12-29 16:47:49.553 [info] Renamed to /home/devm4n/.vscode-oss/extensions/yy0931.vscode-sqlite3-editor-1.0.211-universal
+2025-12-29 16:47:49.792 [info] Marked extension as removed yy0931.vscode-sqlite3-editor-1.0.210-universal
+2025-12-29 16:47:49.828 [info] Extension installed successfully: yy0931.vscode-sqlite3-editor vscode-userdata:/home/devm4n/.vscode-oss/extensions/extensions.json
+2025-12-29 16:47:53.213 [info] Extracted extension to file:///home/devm4n/.vscode-oss/extensions/ms-python.python-2025.20.1-universal: ms-python.python
+2025-12-29 16:47:53.592 [info] Renamed to /home/devm4n/.vscode-oss/extensions/ms-python.python-2025.20.1-universal
+2025-12-29 16:47:53.799 [info] Marked extension as removed ms-python.python-2025.16.0-universal
+2025-12-29 16:47:53.807 [info] Extension installed successfully: ms-python.python vscode-userdata:/home/devm4n/.vscode-oss/extensions/extensions.json

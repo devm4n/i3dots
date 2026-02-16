@@ -1,0 +1,317 @@
+2025-10-23 18:08:56.167 [warning] Settings pattern "mcp" doesn't match any settings
+2025-10-23 18:08:56.169 [warning] SettingsEditor2: Settings not included in settingsLayout.ts: github.copilot.chat.agent.terminal.allowList, github.copilot.chat.agent.terminal.denyList
+2025-10-23 18:08:58.764 [info] Started local extension host with pid 1328.
+2025-10-23 18:08:59.227 [warning] Settings pattern "mcp" doesn't match any settings
+2025-10-23 18:09:03.085 [warning] Settings pattern "mcp" doesn't match any settings
+2025-10-23 18:09:05.387 [warning] Settings pattern "mcp" doesn't match any settings
+2025-10-23 18:09:07.577 [warning] Settings pattern "mcp" doesn't match any settings
+2025-10-23 18:09:09.579 [error] Error while getting the latest version for the extension batisteo.vscode-django. SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open VSX Registry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+
+    <!-- Eclipse Cookie Consent -->
+    <link rel="stylesheet" type="text/css"
+        href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+    <script
+        src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js">
+    </script>
+    <style>
+        a.cc-btn.cc-allow {
+            background-color: #c160ef;
+        }
+        a.cc-btn.cc-allow:hover, a.cc-btn.cc-allow:focus {
+            background-color: #444;
+        }
+        .cc-revoke {
+            display: none !important;
+        }
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="main"></div>
+    <script src='/bundle.js' ></script>
+</body>
+
+</html>
+
+2025-10-23 18:09:09.838 [error] Error while getting the latest version for the extension bfrangi.vscode-django-tex. SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open VSX Registry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+
+    <!-- Eclipse Cookie Consent -->
+    <link rel="stylesheet" type="text/css"
+        href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+    <script
+        src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js">
+    </script>
+    <style>
+        a.cc-btn.cc-allow {
+            background-color: #c160ef;
+        }
+        a.cc-btn.cc-allow:hover, a.cc-btn.cc-allow:focus {
+            background-color: #444;
+        }
+        .cc-revoke {
+            display: none !important;
+        }
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="main"></div>
+    <script src='/bundle.js' ></script>
+</body>
+
+</html>
+
+2025-10-23 18:09:10.074 [info] [perf] Render performance baseline is 683ms
+2025-10-23 18:09:10.559 [error] Error while getting the latest version for the extension tomi.xajssnippets. SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open VSX Registry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+
+    <!-- Eclipse Cookie Consent -->
+    <link rel="stylesheet" type="text/css"
+        href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+    <script
+        src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js">
+    </script>
+    <style>
+        a.cc-btn.cc-allow {
+            background-color: #c160ef;
+        }
+        a.cc-btn.cc-allow:hover, a.cc-btn.cc-allow:focus {
+            background-color: #444;
+        }
+        .cc-revoke {
+            display: none !important;
+        }
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="main"></div>
+    <script src='/bundle.js' ></script>
+</body>
+
+</html>
+
+2025-10-23 18:09:10.662 [warning] Settings pattern "mcp" doesn't match any settings
+2025-10-23 18:09:11.380 [error] Error while getting the latest version for the extension tomi.xasnippets. SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open VSX Registry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+
+    <!-- Eclipse Cookie Consent -->
+    <link rel="stylesheet" type="text/css"
+        href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+    <script
+        src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js">
+    </script>
+    <style>
+        a.cc-btn.cc-allow {
+            background-color: #c160ef;
+        }
+        a.cc-btn.cc-allow:hover, a.cc-btn.cc-allow:focus {
+            background-color: #444;
+        }
+        .cc-revoke {
+            display: none !important;
+        }
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="main"></div>
+    <script src='/bundle.js' ></script>
+</body>
+
+</html>
+
+2025-10-23 18:09:11.690 [error] Error while getting the latest version for the extension alexgoni.short-react-snippets. SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open VSX Registry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+
+    <!-- Eclipse Cookie Consent -->
+    <link rel="stylesheet" type="text/css"
+        href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+    <script
+        src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js">
+    </script>
+    <style>
+        a.cc-btn.cc-allow {
+            background-color: #c160ef;
+        }
+        a.cc-btn.cc-allow:hover, a.cc-btn.cc-allow:focus {
+            background-color: #444;
+        }
+        .cc-revoke {
+            display: none !important;
+        }
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="main"></div>
+    <script src='/bundle.js' ></script>
+</body>
+
+</html>
+
+2025-10-23 18:09:11.960 [error] Error while getting the latest version for the extension dlasagno.wal-theme. SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open VSX Registry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+
+    <!-- Eclipse Cookie Consent -->
+    <link rel="stylesheet" type="text/css"
+        href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+    <script
+        src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js">
+    </script>
+    <style>
+        a.cc-btn.cc-allow {
+            background-color: #c160ef;
+        }
+        a.cc-btn.cc-allow:hover, a.cc-btn.cc-allow:focus {
+            background-color: #444;
+        }
+        .cc-revoke {
+            display: none !important;
+        }
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="main"></div>
+    <script src='/bundle.js' ></script>
+</body>
+
+</html>
+
+2025-10-23 18:10:24.745 [warning] Settings pattern "mcp" doesn't match any settings
+2025-10-23 18:10:42.043 [warning] Settings pattern "mcp" doesn't match any settings
