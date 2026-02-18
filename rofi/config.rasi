@@ -1,0 +1,24 @@
+@import "/home/devm4n/.cache/wal/colors-rofi-dark.rasi"
+
+configuration {
+	show-icons:true;
+    font: "JetBrains Mono 14";
+}
+
+#scrollbar {
+    width: 4px;
+    border: 0;
+    handle-width: 0px;
+    padding: 0;
+}
+#element {
+    border: 0;
+    padding: 4px;
+    border-radius:4px;
+}
+window {
+	border-radius:12px;
+	border:2px;
+	height:300px;
+	width:400px;
+}

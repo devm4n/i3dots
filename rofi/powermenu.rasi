@@ -1,0 +1,34 @@
+@import "~/.cache/wal/colors-rofi-dark.rasi"
+
+configuration {
+    show-icons:false;
+    font: "JetBrains Mono 14";
+}
+inputbar {
+    enabled:false;
+}
+element-text{
+    text-color:@selected-normal-foreground;
+    padding:8px;
+    border-radius:6px;
+
+}
+element {
+    border-radius:6px;
+}
+element-text selected{
+    text-color:@selected-normal-foreground;
+    background-color:@selected-normal-background;
+    border-radius:6px;
+}
+
+listview {
+    border: 0px;
+}
+
+window {
+	border-radius:12px;
+	border:2px;
+	height:200px;
+	width:220px;
+}
